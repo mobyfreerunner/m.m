@@ -1,0 +1,130 @@
+$vibrantYellow: #FFBC00
+
+.stick
+    position: fixed
+    top: 0
+    width: 100%
+
+.navigation_bar
+  height: 64px
+  background-color: green
+  z-index: 50
+
+.navigation_items
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  text-align: center
+  margin: auto
+  height: 100%
+  max-width: 980px
+  background-color: $vibrantYellow
+
+  .vnav_logo
+    display: flex
+    justify-content: center
+    width: auto
+    height: 64px
+    cursor: pointer
+    //background-color: pink
+    .my_logo
+      fill: #443E3D
+      height: auto
+      width: 80px
+      margin: 0
+      transition: all 0.2s ease-in-out
+      &:hover
+        fill: white
+
+  .nav_main
+    display: flex
+    justify-content: center
+    flex-direction: row
+    width: auto
+    height: 64px
+    background-color: lightblue
+    .vbtnWork
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 200px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav1
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav1
+          color: $vibrantYellow
+
+    .vbtnSocial
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 200px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav2
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav2
+          color: $vibrantYellow
+
+    .vbtnContact
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 200px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav3
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav3
+          color: $vibrantYellow
+
+
+  .nav_email
+    display: flex
+    justify-content: center
+    flex-direction: row
+    width: auto
+    height: 64px
+    //background-color: lightgreen
+    .vbtnEmail
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav4
+        align-self: flex-end
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: #443E3D
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        //background-color: white
+        .nav4
+          color: white
