@@ -1,5 +1,13 @@
 $( document ).ready(function() {
 
+
+  /*$('.landing').mousemove(function(e){
+    var x = -(e.pageX + this.offsetLeft) / 6;
+    //var y = -(e.pageY + this.offsetTop) / 20;
+    $(this).css('background-position', x + 'px' );
+  });*/
+
+
   // Get started!
   //Landing Page
   $(".my_arrow").hide(0).delay(1200).fadeIn(800);
@@ -92,7 +100,7 @@ $window.scroll(function() {
 
     //console.log(window_top);
     $('.img').css({
-        //'transform' : 'translate(0px, '+ window_top/15 +'px)'
+        //'transform' : 'translate(0px, -'+ window_top/2 +'%)'
       });
 
 });

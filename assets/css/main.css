@@ -3198,12 +3198,26 @@ hr {
   width: 100%;
   background-color: #EFEFEF; }
 
+.img {
+  transform: translateY(0px);
+  transition: all 0.5s ease-in-out; }
+
 .container {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 980px;
   min-height: 600px; }
+  .container:hover .proj_img .img {
+    transform: scale(1.1); }
+  .container:hover .proj_des .des_body .desc_bod {
+    color: #666666; }
+    .container:hover .proj_des .des_body .desc_bod .desc_light {
+      font-size: 150%;
+      font-weight: 100;
+      color: #0D94FF; }
+  .container:hover .proj_des .des_button .des_cta {
+    filter: opacity(1); }
 
 .proj_img {
   display: flex;
@@ -3233,9 +3247,10 @@ hr {
   font-weight: 200;
   margin-bottom: 0px;
   text-align: left;
-  color: #666666; }
+  color: #b3b3b3; }
 
 .desc_light {
+  transition: all 0.2s ease-in-out;
   font-size: 32px;
   color: #FFBC00; }
 
@@ -3264,6 +3279,7 @@ hr {
       text-align: left; }
 
 .des_button .des_cta {
+  filter: opacity(0);
   margin-top: 20px;
   margin-bottom: 50px;
   height: 60px;
@@ -3281,7 +3297,7 @@ hr {
   border: solid #0D94FF;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.5s ease-in-out; }
   .des_button .des_cta:hover {
     color: white;
     background-color: #0D94FF;
@@ -3314,7 +3330,7 @@ hr {
     border: solid #0D94FF;
     cursor: pointer;
     box-sizing: border-box;
-    transition: all 0.2s ease-in-out; }
+    transition: all 0.5s ease-in-out; }
     .work_cta .allWork:hover {
       color: white;
       background-color: #73c1ff;
@@ -3470,7 +3486,7 @@ html, body {
 .landing {
   height: 100vh;
   background-image: url(../../assets/img/landing-bg.gif);
-  background-size: cover;
+  background-size: auto 120%;
   background-position: top center;
   background-attachment: fixed; }
 

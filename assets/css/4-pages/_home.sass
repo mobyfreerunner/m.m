@@ -4,12 +4,31 @@
   width: 100%
   background-color: #EFEFEF
 
+.img
+  transform: translateY(0px)
+  transition: all 0.5s ease-in-out
+
 .container
   display: flex
   justify-content: space-between
   margin: 0 auto
   max-width: 980px
   min-height: 600px
+  &:hover
+    .proj_img
+      .img
+        transform: scale(1.1)
+    .proj_des
+      .des_body
+        .desc_bod
+          color: lighten(#333333, 20%)
+          .desc_light
+            font-size: 150%
+            font-weight: 100
+            color: #0D94FF
+      .des_button
+        .des_cta
+          filter: opacity(1)
   //background-color: pink
 
 .proj_img
@@ -43,9 +62,10 @@
   font-weight: 200
   margin-bottom: 0px
   text-align: left
-  color: lighten(#333333, 20%)
+  color: lighten(#333333, 50%)
 
 .desc_light
+  transition: all 0.2s ease-in-out
   font-size: 32px
   color: #FFBC00
 
@@ -80,6 +100,7 @@
 .des_button
   //background-color: red
   .des_cta
+    filter: opacity(0)
     margin-top: 20px
     margin-bottom: 50px
     height: 60px
@@ -98,7 +119,7 @@
     cursor: pointer
     box-sizing: border-box
     //filter: $dropshadow
-    transition: all 0.2s ease-in-out
+    transition: all 0.5s ease-in-out
     &:hover
       color: white
       background-color: #0D94FF
@@ -133,7 +154,7 @@
     cursor: pointer
     box-sizing: border-box
     //filter: $dropshadow
-    transition: all 0.2s ease-in-out
+    transition: all 0.5s ease-in-out
     &:hover
       color: white
       background-color: lighten(#0D94FF, 20%)
