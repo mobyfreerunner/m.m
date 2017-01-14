@@ -4067,6 +4067,37 @@ html, body {
   justify-content: center;
   align-items: center; }
 
+.grid_hold .work_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0px;
+  justify-content: center;
+  padding: 0; }
+  .grid_hold .work_wrapper .items {
+    flex-grow: 1;
+    margin: 0;
+    list-style: none;
+    width: 500px;
+    height: 500px;
+    overflow: hidden; }
+    .grid_hold .work_wrapper .items img {
+      width: 100%;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+      filter: grayscale(0); }
+      .grid_hold .work_wrapper .items img:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        filter: grayscale(1); }
+
+.empty {
+  flex-grow: 1;
+  background-color: pink;
+  width: 500px; }
+
+.slider {
+  z-index: 1; }
+
 .wrapper {
   background-color: lightblue; }
   @media (max-width: 980px) {

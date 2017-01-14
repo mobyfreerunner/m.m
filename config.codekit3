@@ -15,6 +15,20 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/allwork.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/allwork.html",
+		"oF": 0
+		},
+	"\/allwork.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/allwork.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/1-tools\/_animate.css": {
 		"aP": 0,
 		"bl": 0,
@@ -151,6 +165,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/4-pages\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/5-myStyle\/allwork.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/5-myStyle\/allwork.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -770,8 +797,16 @@
 	"\/parts\/scroll.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/parts\/scroll.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/parts\/sections\/allwork_grid.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/parts\/sections\/allwork_grid.html",
 		"oF": 0,
 		"oS": 0
 		},
