@@ -2999,7 +2999,7 @@ hr {
   border: solid #0D94FF;
   cursor: pointer;
   box-sizing: border-box;
-  transition: all 0.5s ease-in-out; }
+  transition: all 0.3s ease-in-out; }
   .des_button .des_cta:hover {
     color: white;
     background-color: #0D94FF;
@@ -3760,12 +3760,14 @@ html, body {
   border-radius: 4px;
   margin-left: 2px;
   margin-right: 2px;
-  max-width: 490px; }
+  width: 490px;
+  height: 100%; }
 
 .picLong {
   border-radius: 4px;
   margin: 5px;
-  width: 980px; }
+  width: 980px;
+  height: 100%; }
 
 .wrap {
   flex-wrap: wrap; }
