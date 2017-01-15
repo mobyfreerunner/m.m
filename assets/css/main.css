@@ -3463,13 +3463,16 @@ html, body {
     align-items: center;
     width: auto;
     height: auto; }
+    .flex_landing .centerWrap:hover .my_title {
+      transform: scale(1.05); }
     .flex_landing .centerWrap .logo_land {
       width: auto;
       height: auto;
       padding-bottom: 50px; }
     .flex_landing .centerWrap .title {
       width: auto;
-      height: auto; }
+      height: auto;
+      cursor: pointer; }
     .flex_landing .centerWrap .resume_button {
       width: auto;
       height: auto; }
@@ -3497,6 +3500,10 @@ html, body {
   margin: auto;
   fill: white;
   transition: all 0.2s ease-in-out; }
+
+.my_title {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out; }
 
 .my_logo {
   height: auto;
