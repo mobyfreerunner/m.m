@@ -80,7 +80,7 @@ $( document ).ready(function() {
 
     }
   });
-});
+
 
 var $window = $(window),
     $mainMenuBar = $('.navigation_bar'),
@@ -153,4 +153,6 @@ $(".btnContact").click(function() {
 
 $(".vbtnContact").click(function() {
     location.href='/#contact_container';
+});
+
 });

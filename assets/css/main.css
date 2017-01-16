@@ -3760,6 +3760,7 @@ html, body {
   border-radius: 4px;
   margin-left: 2px;
   margin-right: 2px;
+  margin-bottom: 5px;
   width: 490px;
   height: 100%; }
 
@@ -3768,6 +3769,10 @@ html, body {
   margin: 5px;
   width: 980px;
   height: 100%; }
+
+.video {
+  border-radius: 4px;
+  margin: 5px; }
 
 .wrap {
   flex-wrap: wrap; }
