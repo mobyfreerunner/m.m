@@ -234,6 +234,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/css\/5-myStyle\/intro.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/5-myStyle\/intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/5-myStyle\/landing.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -994,7 +1007,7 @@
 		},
 	"\/assets\/img\/home\/Aurora.png": {
 		"ft": 32768,
-		"iS": 92177,
+		"iS": 181946,
 		"oA": 0,
 		"oAP": "\/assets\/img\/home\/Aurora.png",
 		"oF": 0,
@@ -1032,11 +1045,59 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/me_intro_small.jpg": {
+		"ft": 16384,
+		"iS": 26790,
+		"oA": 0,
+		"oAP": "\/assets\/img\/me_intro_small.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/svgs\/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/c_face.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/c_face.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/c_ind.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/c_ind.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/c_mail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/c_mail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/c_phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/c_phone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1055,7 +1116,7 @@
 	"\/assets\/img\/svgs\/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/facebook.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1085,7 +1146,7 @@
 	"\/assets\/img\/svgs\/mail.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/mail.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1115,7 +1176,7 @@
 	"\/assets\/img\/svgs\/phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/phone.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1145,7 +1206,7 @@
 	"\/assets\/img\/svgs\/title.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/img\/svgs\/title.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1239,6 +1300,20 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/intro.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/intro.html",
+		"oF": 0
+		},
+	"\/intro.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/intro.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/iquestion.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1288,6 +1363,14 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/parts\/dp_shattered.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/parts\/intro_head.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/parts\/intro_head.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1380,7 +1463,7 @@
 	"\/parts\/template.jade": {
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/parts\/template.html",
 		"oF": 0,
 		"oS": 0

@@ -161,9 +161,14 @@
       background-color: lighten(#0D94FF, 20%)
       outline: 0
 
+#social_container
+  &:hover
+    .social_announce
+      opacity: 1
 
 .socialBox
   display: flex
+  position: relative
   background-color: pink
   height: auto
   justify-content: center
@@ -212,6 +217,30 @@
 
 .right
   float: right
+
+.social_announce
+  text-align: center
+  position: absolute
+  z-index: 20
+  left: 50%
+  top: 100%
+  transform: translate(-50%, -55%)
+  opacity: 0
+  transition: all 0.5s ease-in-out
+  .coming_soon
+    color: white
+    font-size: 100px
+    margin: 0px
+    white-space: nowrap
+    filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
+  .promise
+    color: white
+    font: Lola
+    font-weight: 100
+    font-style: italic
+    margin: 0
+    margin-top: 10px
+    font-size: 25px
 
 .youtube_logo
   fill: white
@@ -275,9 +304,21 @@
         //transform: scale(1.8)
         //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
 
+  .contactIn
+    display: flex
+    justify-content: center
+    width: calc(100%/3)
+    height: 300px
+    background-color: lighten(#FFBC00, 10%)
+    &:hover
+      .in_logo
+        fill: white
+        //transform: scale(1.8)
+        //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
+
 .facebook_logo
   fill: #443E3D
-  width: 120px
+  width: 150px
   transition: all 0.2s ease-in-out
 
 .mail_logo
@@ -285,7 +326,12 @@
   width: 150px
   transition: all 0.2s ease-in-out
 
+.in_logo
+  fill: #443E3D
+  width: 150px
+  transition: all 0.2s ease-in-out
+
 .phone_logo
   fill: #443E3D
-  width: 130px
+  width: 150px
   transition: all 0.2s ease-in-out

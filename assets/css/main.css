@@ -3038,8 +3038,12 @@ hr {
       background-color: #73c1ff;
       outline: 0; }
 
+#social_container:hover .social_announce {
+  opacity: 1; }
+
 .socialBox {
   display: flex;
+  position: relative;
   background-color: pink;
   height: auto;
   justify-content: center; }
@@ -3073,6 +3077,30 @@ hr {
 
 .right {
   float: right; }
+
+.social_announce {
+  text-align: center;
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -55%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out; }
+  .social_announce .coming_soon {
+    color: white;
+    font-size: 100px;
+    margin: 0px;
+    white-space: nowrap;
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.2)); }
+  .social_announce .promise {
+    color: white;
+    font: Lola;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 25px; }
 
 .youtube_logo {
   fill: white;
@@ -3123,10 +3151,18 @@ hr {
     background-color: #ffc933; }
     .contact_me .contactPhone:hover .phone_logo {
       fill: white; }
+  .contact_me .contactIn {
+    display: flex;
+    justify-content: center;
+    width: calc(100%/3);
+    height: 300px;
+    background-color: #ffc933; }
+    .contact_me .contactIn:hover .in_logo {
+      fill: white; }
 
 .facebook_logo {
   fill: #443E3D;
-  width: 120px;
+  width: 150px;
   transition: all 0.2s ease-in-out; }
 
 .mail_logo {
@@ -3134,9 +3170,14 @@ hr {
   width: 150px;
   transition: all 0.2s ease-in-out; }
 
+.in_logo {
+  fill: #443E3D;
+  width: 150px;
+  transition: all 0.2s ease-in-out; }
+
 .phone_logo {
   fill: #443E3D;
-  width: 130px;
+  width: 150px;
   transition: all 0.2s ease-in-out; }
 
 html, body {
@@ -3161,8 +3202,9 @@ html, body {
     align-items: center;
     width: auto;
     height: auto; }
-    .flex_landing .centerWrap:hover .my_title {
-      transform: scale(1.05); }
+    .flex_landing .centerWrap:hover .my_title_svg {
+      transform: scale(1.05);
+      fill: #FFBC00; }
     .flex_landing .centerWrap .logo_land {
       width: auto;
       height: auto;
@@ -3202,6 +3244,12 @@ html, body {
 .my_title {
   transform: scale(1);
   transition: all 0.3s ease-in-out; }
+
+.my_title_svg {
+  width: 940px;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+  fill: white; }
 
 .my_logo {
   height: auto;
@@ -3266,19 +3314,19 @@ html, body {
   height: 100%;
   max-width: 980px;
   background-color: #FFBC00; }
-  .navigation_items .vnav_logo {
+  .navigation_items .nav_logo {
     display: flex;
     justify-content: center;
     width: auto;
     height: 64px;
     cursor: pointer; }
-    .navigation_items .vnav_logo .my_logo {
+    .navigation_items .nav_logo .my_logo {
       fill: #443E3D;
       height: auto;
       width: 80px;
       margin: 0;
       transition: all 0.2s ease-in-out; }
-      .navigation_items .vnav_logo .my_logo:hover {
+      .navigation_items .nav_logo .my_logo:hover {
         fill: white; }
   .navigation_items .nav_main {
     display: flex;
@@ -3375,6 +3423,22 @@ html, body {
   background-color: #FFBC00;
   z-index: 50; }
 
+.tldr {
+  height: 150px;
+  width: 100px;
+  position: absolute;
+  top: 64px;
+  left: calc(50% + 295px);
+  z-index: 10;
+  cursor: pointer; }
+  .tldr:hover .tldr_logo {
+    transform: translateY(-5px); }
+
+.tldr_logo {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-92px);
+  fill: #FFBC00; }
+
 .navigation_items {
   position: relative;
   display: flex;
@@ -3385,19 +3449,19 @@ html, body {
   height: 100%;
   max-width: 980px;
   background-color: #FFBC00; }
-  .navigation_items .nav_logo {
+  .navigation_items .vnav_logo {
     display: flex;
     justify-content: center;
     width: auto;
     height: 64px;
     cursor: pointer; }
-    .navigation_items .nav_logo .my_logo {
+    .navigation_items .vnav_logo .my_logo {
       fill: #443E3D;
       height: auto;
       width: 80px;
       margin: 0;
       transition: all 0.2s ease-in-out; }
-      .navigation_items .nav_logo .my_logo:hover {
+      .navigation_items .vnav_logo .my_logo:hover {
         fill: white; }
   .navigation_items .nav_main {
     display: flex;
@@ -3582,6 +3646,7 @@ html, body {
 
 .footer_title {
   position: relative;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
   font-size: 34px;
   margin: 0;
   color: white;
@@ -3695,6 +3760,9 @@ html, body {
   flex-direction: column;
   align-items: center; }
 
+.push {
+  margin-top: 230px; }
+
 .section {
   width: 980px; }
 
@@ -3712,6 +3780,9 @@ html, body {
   padding-left: 140px;
   padding-right: 140px;
   font-family: Lora; }
+
+.middle {
+  text-align: center; }
 
 .header {
   padding: 64px;
@@ -3812,6 +3883,103 @@ html, body {
   .secListNum .ol {
     font-weight: normal;
     font-size: 21px; }
+
+.intro_header {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  .intro_header:hover .profile_pic {
+    border-radius: 20px; }
+  .intro_header:hover .color_1 {
+    background-color: #3E926F; }
+  .intro_header:hover .color_2 {
+    background-color: #4C4B4D; }
+  .intro_header:hover .color_3 {
+    background-color: #C2AA48; }
+
+.profile_pic {
+  cursor: pointer;
+  background-image: url(../../assets/img/me_intro_small.jpg);
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  border: solid 8px;
+  border-color: #FFBC00;
+  box-sizing: border-box;
+  transform: translateX(-70px);
+  border-radius: 70px;
+  transition: all 0.3s ease-in-out; }
+
+.yellow {
+  height: 192px;
+  background-color: #FFBC00; }
+
+.stripe {
+  width: 100%;
+  height: 38px;
+  display: flex;
+  flex-direction: row; }
+
+.color_3 {
+  flex-grow: 1;
+  min-width: 160px;
+  height: 38px;
+  background-color: #4C4B4D;
+  transition: all 0.3s ease-in-out; }
+
+.color_1 {
+  flex-grow: 1;
+  min-width: 160px;
+  height: 38px;
+  background-color: #B94745;
+  transition: all 0.3s ease-in-out; }
+
+.color_2 {
+  flex-grow: 1;
+  min-width: 160px;
+  height: 38px;
+  background-color: #579F9A;
+  transition: all 0.3s ease-in-out; }
+
+.intro_contact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 200px; }
+  .intro_contact .contactFacebook:hover .facebook_logo {
+    fill: #73c1ff;
+    transform: scale(1.2); }
+  .intro_contact .contactFacebook .facebook_logo {
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+    width: 50px;
+    fill: silver; }
+  .intro_contact .contactEmail:hover .mail_logo {
+    fill: #73c1ff;
+    transform: scale(1.2); }
+  .intro_contact .contactEmail .mail_logo {
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+    width: 50px;
+    fill: silver; }
+  .intro_contact .contactIn:hover .in_logo {
+    fill: #73c1ff;
+    transform: scale(1.2); }
+  .intro_contact .contactIn .in_logo {
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+    width: 50px;
+    fill: silver; }
+  .intro_contact .contactPhone:hover .phone_logo {
+    fill: #73c1ff;
+    transform: scale(1.2); }
+  .intro_contact .contactPhone .phone_logo {
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+    width: 50px;
+    fill: silver; }
 
 .wrapper {
   background-color: lightblue; }

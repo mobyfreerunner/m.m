@@ -155,4 +155,12 @@ $(".vbtnContact").click(function() {
     location.href='/#contact_container';
 });
 
+
+$(".tldr_link").click(function() {
+  $('html,body').animate({
+      scrollTop: $("#end").offset().top + (-64)
+    },800, 'swing');
+});
+
+
 });

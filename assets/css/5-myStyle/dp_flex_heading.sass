@@ -10,6 +10,24 @@ $vibrantYellow: #FFBC00
   background-color: $vibrantYellow
   z-index: 50
 
+.tldr
+  height: 150px
+  width: 100px
+  //background-color: lightblue
+  position: absolute
+  top: 64px
+  left: calc(50% + 295px)
+  z-index: 10
+  cursor: pointer
+  &:hover
+    .tldr_logo
+      transform: translateY(-5px)
+
+.tldr_logo
+  transition: all 0.5s ease-in-out
+  transform: translateY(-92px)
+  fill: $vibrantYellow
+
 .navigation_items
   position: relative
   display: flex
@@ -21,7 +39,7 @@ $vibrantYellow: #FFBC00
   max-width: 980px
   background-color: $vibrantYellow
 
-  .nav_logo
+  .vnav_logo
     display: flex
     justify-content: center
     width: auto
