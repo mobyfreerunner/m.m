@@ -12,7 +12,7 @@ $( document ).ready(function() {
   //Landing Page
   $(".my_arrow").hide(0).delay(1200).fadeIn(800);
   setTimeout(function(){
-    $(".land_overlay").addClass("fadeLoad");
+    //$(".land_overlay").addClass("fadeLoad");
   }, 200);
 
   $('.proj_des').bind('inview', function(event, isInView) {
@@ -112,13 +112,13 @@ $(".dp_focus").click(function(){
 $(".enter").click(function() {
     $('html,body').animate({
         scrollTop: $(".work_bgContain").offset().top + (-64)
-      },800, 'swing');
+      },1500, 'swing');
 });
 
 $(".nav_logo").click(function() {
     $('html,body').animate({
         scrollTop: $(".landing").offset().top
-      },300, 'swing');
+      },1500, 'swing');
 });
 
 $(".vnav_logo").click(function() {
@@ -162,5 +162,20 @@ $(".tldr_link").click(function() {
     },800, 'swing');
 });
 
+$(".card_face").click(function() {
+    window.open("https://www.facebook.com/mubarakmarafaixd");
+});
+
+$(".card_mail").click(function() {
+    window.location.href = "mailto:mubarakmarafa@me.com";
+});
+
+$(".card_in").click(function() {
+    window.open("https://hk.linkedin.com/in/mubarakmarafa");
+});
+
+$(".card_phone").click(function() {
+    window.location.href = "tel:+85260718550";
+});
 
 });

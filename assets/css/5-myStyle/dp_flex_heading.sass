@@ -16,8 +16,8 @@ $vibrantYellow: #FFBC00
   //background-color: lightblue
   position: absolute
   top: 64px
-  left: calc(50% + 295px)
-  z-index: 10
+  left: calc(50% + 350px)
+  z-index: 0
   cursor: pointer
   &:hover
     .tldr_logo
@@ -26,7 +26,7 @@ $vibrantYellow: #FFBC00
 .tldr_logo
   transition: all 0.5s ease-in-out
   transform: translateY(-92px)
-  fill: $vibrantYellow
+  fill: #2D99F9
 
 .navigation_items
   position: relative
@@ -46,14 +46,15 @@ $vibrantYellow: #FFBC00
     height: 64px
     cursor: pointer
     //background-color: pink
+    &:hover
+      .my_logo
+        fill: white
     .my_logo
       fill: #443E3D
       height: auto
       width: 80px
       margin: 0
       transition: all 0.2s ease-in-out
-      &:hover
-        fill: white
 
   .nav_main
     display: flex
