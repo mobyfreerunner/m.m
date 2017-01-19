@@ -2951,6 +2951,9 @@ hr {
   text-align: left;
   color: #b3b3b3; }
 
+.align_right {
+  text-align: right; }
+
 .desc_light {
   transition: all 0.2s ease-in-out;
   font-size: 32px;
@@ -3053,21 +3056,21 @@ hr {
   .socialBox .youtube {
     background-color: #E62017; }
     .socialBox .youtube:hover .youtube_logo {
-      transform: scale(1.1); }
+      transform: scale(1.3); }
   .socialBox .medium {
     background-color: #01B875; }
     .socialBox .medium:hover .medium_logo {
-      transform: scale(1.1); }
+      transform: scale(1.3); }
   .socialBox .instagram {
     background-image: url(../img/bgs/instagram_gradient.jpg);
     background-size: cover;
     background-position: center; }
     .socialBox .instagram:hover .insta_logo {
-      transform: scale(1.1); }
+      transform: scale(1.3); }
   .socialBox .behance {
     background-color: #005CFF; }
     .socialBox .behance:hover .be_logo {
-      transform: scale(1.1); }
+      transform: scale(1.3); }
   .socialBox .dribbble {
     background-color: #EA4C89; }
     .socialBox .dribbble:hover .dribbble_logo {
@@ -3109,22 +3112,22 @@ hr {
 .youtube_logo {
   fill: white;
   width: 100px;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s cubic-bezier(0.52, 0.01, 0, 1.49); }
 
 .medium_logo {
   fill: white;
   width: 120px;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s cubic-bezier(0.52, 0.01, 0, 1.49); }
 
 .insta_logo {
   fill: white;
   width: 120px;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s cubic-bezier(0.52, 0.01, 0, 1.49); }
 
 .be_logo {
   fill: white;
   width: 120px;
-  transition: all 0.2s ease-in-out; }
+  transition: all 0.2s cubic-bezier(0.52, 0.01, 0, 1.49); }
 
 .dribbble_logo {
   fill: white;
@@ -3196,7 +3199,7 @@ html, body {
 .flex_landing {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -3211,7 +3214,7 @@ html, body {
     width: 980px;
     height: 571px;
     border-radius: 30px;
-    box-shadow: 0 30px 30px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 80px 80px -40px rgba(0, 0, 0, 0.5);
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out; }
     .flex_landing .centerWrap .card_logo {
@@ -3243,8 +3246,7 @@ html, body {
       border-width: 6px 6px 3px 3px;
       border-radius: 0px 30px 0px 0px;
       height: 25%;
-      width: 65%;
-      z-index: 30; }
+      width: 65%; }
       .flex_landing .centerWrap .card_name .logo_name {
         width: 580px;
         fill: #443E3D; }
@@ -3343,6 +3345,7 @@ html, body {
       width: 50%;
       color: #443E3D;
       font-size: 60px;
+      font-family: Lora;
       text-align: center;
       line-height: 130px;
       transition: all 0.3s ease-in-out;
@@ -3361,6 +3364,7 @@ html, body {
       width: 50%;
       color: #443E3D;
       font-size: 60px;
+      font-family: Lora;
       text-align: center;
       line-height: 130px;
       transition: all 0.3s ease-in-out;
@@ -3368,15 +3372,37 @@ html, body {
       .flex_landing .centerWrap .card_about:hover {
         background-color: #443E3D;
         color: #FFBC00; }
-  .flex_landing .enter {
-    width: 100%;
-    height: 50px;
-    padding-bottom: 30px;
-    cursor: pointer; }
-    .flex_landing .enter:hover .my_arrow {
-      filter: none;
-      transform: translateY(5px);
-      fill: #443E3D; }
+
+.enter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+  background-color: pink;
+  z-index: 0; }
+  .enter:hover .enter_label .enterLabel_logo {
+    transform: translateY(-20px); }
+
+.enter_label {
+  text-align: center;
+  width: 30%;
+  height: 400px;
+  position: absolute;
+  top: calc(50% + 285px);
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 0;
+  overflow: hidden;
+  cursor: pointer; }
+  .enter_label:hover .enterLabel_logo {
+    transform: translateY(-20px); }
+  .enter_label .enterLabel_logo {
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    fill: #443E3D;
+    transform: translateY(-110px);
+    width: 300px;
+    filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5)); }
 
 .landing {
   height: 100vh;
@@ -3385,9 +3411,8 @@ html, body {
 .my_arrow {
   height: 50px;
   width: 50px;
-  display: block;
   margin: auto;
-  fill: white;
+  fill: none;
   transition: all 0.2s ease-in-out; }
 
 .my_title {
@@ -3581,12 +3606,17 @@ html, body {
   z-index: 0;
   cursor: pointer; }
   .tldr:hover .tldr_logo {
-    transform: translateY(-5px); }
+    transform: translateY(-15px); }
+  .tldr:hover .cls-1 {
+    fill: #FFBC00; }
 
 .tldr_logo {
-  transition: all 0.5s ease-in-out;
-  transform: translateY(-92px);
-  fill: #2D99F9; }
+  transition: all 0.3s cubic-bezier(0.52, 0.01, 0, 1.49);
+  transform: translateY(-175px); }
+  .tldr_logo .cls-2 {
+    fill: #443E3D; }
+  .tldr_logo .cls-1 {
+    fill: none; }
 
 .navigation_items {
   position: relative;
@@ -3780,7 +3810,7 @@ html, body {
 .footer_bgContain {
   height: calc(100vh - 564px);
   width: 100%;
-  background-image: url(../img/bgs/funkyaqua-bg.gif);
+  background-image: url(../img/bgs/landing-bg.gif);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3955,6 +3985,12 @@ html, body {
   margin-top: 20px;
   margin-bottom: 5px; }
 
+.header_4 {
+  font-family: Lora;
+  font-size: 20px;
+  color: #999999;
+  transform: translateY(-80px); }
+
 .quote {
   font-size: 28px;
   text-align: center;
@@ -3966,6 +4002,22 @@ html, body {
   font-style: italic;
   margin-top: 100px;
   margin-bottom: 100px; }
+  .quote:before {
+    content: " ";
+    background: url("../../assets/img/svgs/q_1.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translate(-60px, -15px); }
+  .quote:after {
+    content: " ";
+    background: url("../../assets/img/svgs/q_2.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    transform: translate(10px, 10px); }
 
 .diagram {
   display: flex;
@@ -3989,6 +4041,10 @@ html, body {
   margin: 5px;
   width: 980px;
   height: 100%; }
+
+.flexer {
+  width: auto;
+  height: auto; }
 
 .video {
   border-radius: 4px;

@@ -109,7 +109,7 @@ $(".dp_focus").click(function(){
         $(this).toggleClass("zoom");
     });
 
-$(".enter").click(function() {
+$(".enter_label").click(function() {
     $('html,body').animate({
         scrollTop: $(".work_bgContain").offset().top + (-64)
       },1500, 'swing');
@@ -157,9 +157,15 @@ $(".vbtnContact").click(function() {
 
 
 $(".tldr_link").click(function() {
-  $('html,body').animate({
-      scrollTop: $("#end").offset().top + (-64)
-    },800, 'swing');
+  // $('html,body').animate({
+  //     scrollTop: $("#end").position().top + (-64)
+  //   },800);
+    //console.log($("#end").offset().top, $("#end").position().top, $('#end'))
+    //console.log()
+    //location.href='#end';
+    $("#end").ScrollTo( {
+      duration: 2000
+    });
 });
 
 $(".card_face").click(function() {

@@ -415,10 +415,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/dp_aurora\/Anantika.jpg": {
+		"ft": 16384,
+		"iS": 94261,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_aurora\/anantika.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/dp_aurora\/aurora.mp4": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/img\/dp_aurora\/aurora.mp4",
+		"oF": 0
+		},
+	"\/assets\/img\/dp_aurora\/AuroralSpectrumStatement.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_aurora\/AuroralSpectrumStatement.pdf",
+		"oF": 0
+		},
+	"\/assets\/img\/dp_aurora\/full.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_aurora\/full.mp4",
 		"oF": 0
 		},
 	"\/assets\/img\/dp_aurora\/Immersion.jpg": {
@@ -434,6 +454,22 @@
 		"iS": 245706,
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_aurora\/Immersion2Glow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_aurora\/paper.jpg": {
+		"ft": 16384,
+		"iS": 383838,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_aurora\/paper.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_aurora\/wire.png": {
+		"ft": 32768,
+		"iS": 2019319,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_aurora\/wire.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1027,6 +1063,164 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/dp_solotouch\/carnival.jpg": {
+		"ft": 16384,
+		"iS": 42075,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/carnival.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/demo.jpg": {
+		"ft": 16384,
+		"iS": 37192,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/demo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/flex.jpg": {
+		"ft": 16384,
+		"iS": 24434,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/flex.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/flexaction.gif": {
+		"ft": 4194304,
+		"iS": 15792,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/flexaction.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/gear.jpg": {
+		"ft": 16384,
+		"iS": 19714,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/gear.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/gear2.jpg": {
+		"ft": 16384,
+		"iS": 17657,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/gear2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/lume.jpg": {
+		"ft": 16384,
+		"iS": 26792,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/lume.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/magazine.jpg": {
+		"ft": 16384,
+		"iS": 38889,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/magazine.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/model.jpg": {
+		"ft": 16384,
+		"iS": 18579,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/model.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/noscore.png": {
+		"ft": 32768,
+		"iS": 24030,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/noscore.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/paper.png": {
+		"ft": 32768,
+		"iS": 24202,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/paper.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/prototype1.jpg": {
+		"ft": 16384,
+		"iS": 22809,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/prototype1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/prototype2.jpg": {
+		"ft": 16384,
+		"iS": 41044,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/prototype2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/rod.jpg": {
+		"ft": 16384,
+		"iS": 26651,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/rod.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/rodthrough.jpg": {
+		"ft": 16384,
+		"iS": 19495,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/rodthrough.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/sketch.jpg": {
+		"ft": 16384,
+		"iS": 22376,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/sketch.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/solo.jpg": {
+		"ft": 16384,
+		"iS": 13416,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/solo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/SoloTouch-HD.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_solotouch\/SoloTouch-HD.mp4",
+		"oF": 0
+		},
+	"\/assets\/img\/dp_solotouch\/solotouch_cover.jpg": {
+		"ft": 16384,
+		"iS": 25869,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/solotouch_cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/dp_solotouch\/touchosc.png": {
+		"ft": 32768,
+		"iS": 4047,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_solotouch\/touchosc.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/home\/Aurora.png": {
 		"ft": 32768,
 		"iS": 181946,
@@ -1145,6 +1339,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/svgs\/enter_label.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/svgs\/enter_label.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/enter_label_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/enter_label_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/svgs\/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1215,6 +1429,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/svgs\/mubarakmarafa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/mubarakmarafa.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/svgs\/phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1238,8 +1462,28 @@
 	"\/assets\/img\/svgs\/pointer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/pointer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/q_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/svgs\/q_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/q_2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/svgs\/q_2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1258,8 +1502,18 @@
 	"\/assets\/img\/svgs\/tldr.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/assets\/img\/svgs\/tldr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/svgs\/tldr_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/svgs\/tldr_1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1316,6 +1570,76 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/demo\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/demo\/index.html",
+		"oF": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/index.html",
+		"oF": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/lib\/jquery-scrollto.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-scrollto\/lib\/jquery-scrollto-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/styles\/generic.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/styles\/generic-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/styles\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/styles\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/vendor\/github.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/vendor\/github-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/vendor\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-scrollto\/vendor\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery-scrollto\/vendor\/yui-cssreset.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/vendor\/yui-cssreset-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/assets\/js\/jquery-ui.js": {
 		"ft": 64,

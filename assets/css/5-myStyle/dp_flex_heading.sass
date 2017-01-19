@@ -21,12 +21,17 @@ $vibrantYellow: #FFBC00
   cursor: pointer
   &:hover
     .tldr_logo
-      transform: translateY(-5px)
+      transform: translateY(-15px)
+    .cls-1
+      fill: $vibrantYellow
 
 .tldr_logo
-  transition: all 0.5s ease-in-out
-  transform: translateY(-92px)
-  fill: #2D99F9
+  transition: all 0.3s cubic-bezier(0.52, 0.01, 0, 1.49)
+  transform: translateY(-175px)
+  .cls-2
+    fill: #443E3D
+  .cls-1
+    fill: none
 
 .navigation_items
   position: relative

@@ -50,6 +50,12 @@
   margin-top: 20px
   margin-bottom: 5px
 
+.header_4
+  font-family: Lora
+  font-size: 20px
+  color: lighten(#333333, 40%)
+  transform: translateY(-80px)
+
 .quote
   font-size: 28px
   text-align: center
@@ -61,6 +67,27 @@
   font-style: italic
   margin-top: 100px
   margin-bottom: 100px
+
+  &:before
+    content: " "
+    background: url('../../assets/img/svgs/q_1.svg')
+    background-repeat: no-repeat
+    width: 50px
+    height: 50px
+    position: absolute
+    transform: translate(-60px, -15px)
+    //width: 20px
+    //content: url(../../assets/img/svgs/q_1.svg)
+  &:after
+    content: " "
+    background: url('../../assets/img/svgs/q_2.svg')
+    background-repeat: no-repeat
+    width: 50px
+    height: 50px
+    position: absolute
+    transform: translate(10px, 10px)
+
+
 
 .diagram
   display: flex
@@ -84,6 +111,10 @@
   margin: 5px
   width: 980px
   height: 100%
+
+.flexer
+  width: auto
+  height: auto
 
 .video
   border-radius: 4px
