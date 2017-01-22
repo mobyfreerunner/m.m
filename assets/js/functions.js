@@ -1,187 +1,91 @@
-$( document ).ready(function() {
+//-----------Nav Bar Stuff------------//
 
-
-  /*$('.landing').mousemove(function(e){
-    var x = -(e.pageX + this.offsetLeft) / 6;
-    //var y = -(e.pageY + this.offsetTop) / 20;
-    $(this).css('background-position', x + 'px' );
-  });*/
-
-
-  // Get started!
-  //Landing Page
-  $(".my_arrow").hide(0).delay(1200).fadeIn(800);
-  setTimeout(function(){
-    //$(".land_overlay").addClass("fadeLoad");
-  }, 200);
-
-  $('.proj_des').bind('inview', function(event, isInView) {
-  if (isInView) {
-    // element is now visible in the viewport
-    //$(".btnWork").css({"background-color" : "white"});
-    //$(".btnWork").css({"color" : "#FFBC00"});
-    //$('.btnWork').trigger('mouseenter');
-    //$('.btnWork').addClass('active');
+$(window).scroll(function(){
+  //console.log(wScroll);
+  var wScroll = $(this).scrollTop();
+  var $mainMenuBar = $('.navigation_bar');
+  var windowSize = $(window).height() + (-64);
+  var off =  80;
+  if(wScroll > (windowSize-off)){
+    $mainMenuBar.addClass('nav_show');
   } else {
-    // element has gone out of viewport
-    //$(".btnWork").css({"background-color" : "#FFBC00"});
-    //$(".btnWork").css({"color" : "white"});
-    //$('.btnWork').trigger('mouseout');
-    //$('.btnWork').removeClass('active');
+    $mainMenuBar.removeClass('nav_show');
   }
-  });
+});
 
-  $('.one').bind('inview', function(event, isInView) {
-    if (isInView) {
-      //alert('Hi');
-      $('.ione').addClass('iFade');
-      $('.ione').addClass('animated slideInRight');
-    } else {
-
-    }
-  });
-
-  $('.two').bind('inview', function(event, isInView) {
-    if (isInView) {
-      //alert('Hi');
-      $('.itwo').addClass('iFade');
-      $('.itwo').addClass('animated slideInLeft');
-    } else {
-
-    }
-  });
-
-  $('.three').bind('inview', function(event, isInView) {
-    if (isInView) {
-      //alert('Hi');
-      $('.ithree').addClass('iFade');
-      $('.ithree').addClass('animated slideInRight');
-    } else {
-
-    }
-  });
-
-  $('.four').bind('inview', function(event, isInView) {
-    if (isInView) {
-      //alert('Hi');
-      $('.ifour').addClass('iFade');
-      $('.ifour').addClass('animated slideInLeft');
-    } else {
-
-    }
-  });
-
-  $('.five').bind('inview', function(event, isInView) {
-    if (isInView) {
-      //alert('Hi');
-      $('.ifive').addClass('iFade');
-      $('.ifive').addClass('animated slideInRight');
-    } else {
-
-    }
-  });
-
-
-var $window = $(window),
-    $mainMenuBar = $('.navigation_bar'),
-    $mainMenuBarAnchor = $('.Anchor');
-
-$window.scroll(function() {
-  var window_top = $window.scrollTop();
-  var div_top = $mainMenuBarAnchor.offset().top;
-  if (window_top > div_top) {
-      $mainMenuBar.addClass('stick');
-      $mainMenuBarAnchor.height($mainMenuBar.height());
-  }
-  else {
-      $mainMenuBar.removeClass('stick');
-      $mainMenuBarAnchor.height(0);
-  }
-
-    //console.log(window_top);
-    $('.img').css({
-        //'transform' : 'translate(0px, -'+ window_top/2 +'%)'
+$( document ).ready(function() {
+//-----------These are all button stuff------------//
+  $(".dp_focus").click(function(){
+          $(this).toggleClass("zoom");
       });
 
-});
+  $(".enter_label").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".work_bgContain").offset().top + (-63)
+        },800, 'swing');
+  });
 
-$(".dp_focus").click(function(){
-        $(this).toggleClass("zoom");
-    });
+  $(".nav_logo").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".landing").offset().top
+        },1500, 'swing');
+  });
 
-$(".enter_label").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".work_bgContain").offset().top + (-64)
-      },1500, 'swing');
-});
+  $(".vnav_logo").click(function() {
+      location.href='/';
+  });
 
-$(".nav_logo").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".landing").offset().top
-      },1500, 'swing');
-});
+  $(".btnWork").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#work_container").offset().top  + (-64)
+        },800, 'swing');
+  });
 
-$(".vnav_logo").click(function() {
-    location.href='/';
-});
+  $(".vbtnWork").click(function() {
+      location.href='/#work_container';
+  });
 
-$(".btnWork").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#work_container").offset().top  + (-64)
-      },800, 'swing');
-});
+  $(".btnSocial").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#social_container").offset().top + (-64)
+        },800, 'swing');
+  });
 
-$(".vbtnWork").click(function() {
-    location.href='/#work_container';
-});
+  $(".vbtnSocial").click(function() {
+      location.href='/#social_container';
+  });
 
-$(".btnSocial").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#social_container").offset().top + (-64)
-      },800, 'swing');
-});
+  $(".btnContact").click(function() {
+      $('html,body').animate({
+          scrollTop: $("#contact_container").offset().top + (-64)
+        },800, 'swing');
+  });
 
-$(".vbtnSocial").click(function() {
-    location.href='/#social_container';
-});
+  $(".vbtnContact").click(function() {
+      location.href='/#contact_container';
+  });
 
-$(".btnContact").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#contact_container").offset().top + (-64)
-      },800, 'swing');
-});
+  $(".tldr_link").click(function() {
+      $("#end").ScrollTo( {
+        duration: 2000
+      });
+  });
 
-$(".vbtnContact").click(function() {
-    location.href='/#contact_container';
-});
+  //-----------Contact Stuff------------//
 
+  $(".card_face").click(function() {
+      window.open("https://www.facebook.com/mubarakmarafaixd");
+  });
 
-$(".tldr_link").click(function() {
-  // $('html,body').animate({
-  //     scrollTop: $("#end").position().top + (-64)
-  //   },800);
-    //console.log($("#end").offset().top, $("#end").position().top, $('#end'))
-    //console.log()
-    //location.href='#end';
-    $("#end").ScrollTo( {
-      duration: 2000
-    });
-});
+  $(".card_mail").click(function() {
+      window.location.href = "mailto:mubarakmarafa@me.com";
+  });
 
-$(".card_face").click(function() {
-    window.open("https://www.facebook.com/mubarakmarafaixd");
-});
+  $(".card_in").click(function() {
+      window.open("https://hk.linkedin.com/in/mubarakmarafa");
+  });
 
-$(".card_mail").click(function() {
-    window.location.href = "mailto:mubarakmarafa@me.com";
-});
-
-$(".card_in").click(function() {
-    window.open("https://hk.linkedin.com/in/mubarakmarafa");
-});
-
-$(".card_phone").click(function() {
-    window.location.href = "tel:+85260718550";
-});
-
+  $(".card_phone").click(function() {
+      window.location.href = "tel:+85260718550";
+  });
 });

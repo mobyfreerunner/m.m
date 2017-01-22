@@ -2916,10 +2916,7 @@ hr {
   .container:hover .proj_des .des_body .desc_bod {
     color: #666666; }
     .container:hover .proj_des .des_body .desc_bod .desc_light {
-      font-size: 150%;
       color: #0D94FF; }
-  .container:hover .proj_des .des_button .des_cta {
-    filter: opacity(1); }
 
 .proj_img {
   display: flex;
@@ -2927,7 +2924,7 @@ hr {
   align-items: center;
   width: 100%;
   height: auto;
-  opacity: 0;
+  opacity: 1;
   transition: all 0.5s ease-in-out; }
   .proj_img .img {
     transform: translateY(0px); }
@@ -2963,7 +2960,7 @@ hr {
   order: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   height: auto;
   text-align: center; }
@@ -2977,14 +2974,20 @@ hr {
   .proj_des .date {
     color: silver; }
   .proj_des .des_body {
+    display: flex;
+    flex-direction: column;
     padding-left: 65px;
     padding-right: 65px; }
     .proj_des .des_body .des_body_1 {
       font-size: 18px;
       text-align: left; }
 
+.button_align_right {
+  align-self: flex-end;
+  padding-right: 10px; }
+
 .des_button .des_cta {
-  filter: opacity(0);
+  filter: opacity(1);
   margin-top: 20px;
   margin-bottom: 50px;
   height: 60px;
@@ -3230,17 +3233,17 @@ html, body {
       width: 35%;
       cursor: pointer; }
       .flex_landing .centerWrap .card_logo:hover {
-        background-color: #FFBC00; }
+        background-color: #ffc933; }
         .flex_landing .centerWrap .card_logo:hover .my_logo {
           fill: #443E3D; }
       .flex_landing .centerWrap .card_logo .my_logo {
-        fill: #FFBC00;
+        fill: #ffc933;
         transition: all 0.3s ease-in-out; }
     .flex_landing .centerWrap .card_name {
       display: flex;
       justify-content: center;
       box-sizing: border-box;
-      background-color: #FFBC00;
+      background-color: #ffc933;
       border: solid;
       border-color: #443E3D;
       border-width: 6px 6px 3px 3px;
@@ -3252,7 +3255,7 @@ html, body {
         fill: #443E3D; }
     .flex_landing .centerWrap .card_ixd {
       box-sizing: border-box;
-      background-color: #FFBC00;
+      background-color: #ffc933;
       border: solid;
       border-color: #443E3D;
       border-width: 3px 6px 3px 6px;
@@ -3274,11 +3277,11 @@ html, body {
       width: 25%;
       cursor: pointer; }
       .flex_landing .centerWrap .card_face:hover {
-        background-color: #FFBC00; }
+        background-color: #ffc933; }
         .flex_landing .centerWrap .card_face:hover .facebook_logo {
           fill: #443E3D; }
       .flex_landing .centerWrap .card_face .facebook_logo {
-        fill: #FFBC00;
+        fill: #ffc933;
         width: 100px; }
     .flex_landing .centerWrap .card_mail {
       display: flex;
@@ -3292,11 +3295,11 @@ html, body {
       width: 25%;
       cursor: pointer; }
       .flex_landing .centerWrap .card_mail:hover {
-        background-color: #FFBC00; }
+        background-color: #ffc933; }
         .flex_landing .centerWrap .card_mail:hover .mail_logo {
           fill: #443E3D; }
       .flex_landing .centerWrap .card_mail .mail_logo {
-        fill: #FFBC00;
+        fill: #ffc933;
         width: 100px; }
     .flex_landing .centerWrap .card_in {
       display: flex;
@@ -3310,11 +3313,11 @@ html, body {
       width: 25%;
       cursor: pointer; }
       .flex_landing .centerWrap .card_in:hover {
-        background-color: #FFBC00; }
+        background-color: #ffc933; }
         .flex_landing .centerWrap .card_in:hover .in_logo {
           fill: #443E3D; }
       .flex_landing .centerWrap .card_in .in_logo {
-        fill: #FFBC00;
+        fill: #ffc933;
         width: 100px; }
     .flex_landing .centerWrap .card_phone {
       display: flex;
@@ -3328,15 +3331,15 @@ html, body {
       width: 25%;
       cursor: pointer; }
       .flex_landing .centerWrap .card_phone:hover {
-        background-color: #FFBC00; }
+        background-color: #ffc933; }
         .flex_landing .centerWrap .card_phone:hover .phone_logo {
           fill: #443E3D; }
       .flex_landing .centerWrap .card_phone .phone_logo {
-        fill: #FFBC00;
+        fill: #ffc933;
         width: 100px; }
     .flex_landing .centerWrap .card_resume {
       box-sizing: border-box;
-      background-color: #FFBC00;
+      background-color: #ffc933;
       border: solid;
       border-color: #443E3D;
       border-width: 3px 3px 6px 6px;
@@ -3352,10 +3355,10 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_resume:hover {
         background-color: #443E3D;
-        color: #FFBC00; }
+        color: #ffc933; }
     .flex_landing .centerWrap .card_about {
       box-sizing: border-box;
-      background-color: #FFBC00;
+      background-color: #ffc933;
       border: solid;
       border-color: #443E3D;
       border-width: 3px 6px 6px 3px;
@@ -3371,7 +3374,7 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_about:hover {
         background-color: #443E3D;
-        color: #FFBC00; }
+        color: #ffc933; }
 
 .enter {
   position: absolute;
@@ -3469,14 +3472,18 @@ html, body {
     border-color: #888;
     outline: 0; }
 
-.stick {
-  position: fixed;
-  top: 0;
-  width: 100%; }
-
 .navigation_bar {
   height: 64px;
-  z-index: 50; }
+  background-color: #FFBC00;
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.2s linear; }
+
+.nav_show {
+  opacity: 1; }
 
 .navigation_items {
   position: relative;
@@ -3587,15 +3594,13 @@ html, body {
       .navigation_items .nav_email .vbtnEmail:hover .nav4 {
         color: white; }
 
-.stick {
+.alt_navigation_bar {
+  height: 64px;
+  background-color: #FFBC00;
+  z-index: 50;
   position: fixed;
   top: 0;
   width: 100%; }
-
-.navigation_bar {
-  height: 64px;
-  background-color: #FFBC00;
-  z-index: 50; }
 
 .tldr {
   height: 150px;
@@ -3730,7 +3735,7 @@ html, body {
 .work_bgContain {
   height: 200px;
   width: 100%;
-  background-image: url(../img/bgs/t_landing-bg.gif);
+  background-image: url(../img/bgs/color_bg.png);
   background-position: top center;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -3760,7 +3765,7 @@ html, body {
 .social_bgContain {
   height: 200px;
   width: 100%;
-  background-image: url(../img/bgs/t_landing-bg.gif);
+  background-image: url(../img/bgs/color_bg.png);
   background-position: top center;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -3785,7 +3790,7 @@ html, body {
 .contact_bgContain {
   height: 200px;
   width: 100%;
-  background-image: url(../img/bgs/t_landing-bg.gif);
+  background-image: url(../img/bgs/color_bg.png);
   background-position: top center;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -3810,7 +3815,7 @@ html, body {
 .footer_bgContain {
   height: calc(100vh - 564px);
   width: 100%;
-  background-image: url(../img/bgs/landing-bg.gif);
+  background-image: url(../img/me_footer.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -4028,6 +4033,9 @@ html, body {
   margin: 20px;
   max-width: 490px; }
 
+.wrangle {
+  max-height: 500px; }
+
 .picGal {
   border-radius: 4px;
   margin-left: 2px;
@@ -4096,11 +4104,11 @@ html, body {
   .intro_header:hover .profile_pic {
     border-radius: 20px; }
   .intro_header:hover .color_1 {
-    background-color: #3E926F; }
-  .intro_header:hover .color_2 {
     background-color: #4C4B4D; }
+  .intro_header:hover .color_2 {
+    background-color: #B94745; }
   .intro_header:hover .color_3 {
-    background-color: #C2AA48; }
+    background-color: #579F9A; }
   .intro_header:hover .my_alt_logo {
     fill: white; }
   .intro_header .my_alt_logo {

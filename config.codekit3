@@ -335,6 +335,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/img\/bgs\/color_bg.png": {
+		"ft": 32768,
+		"iS": 3278,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bgs\/color_bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/bgs\/funkyaqua-bg.gif": {
 		"ft": 4194304,
 		"iS": 0,
@@ -415,7 +423,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_aurora\/Anantika.jpg": {
+	"\/assets\/img\/dp_aurora\/anantika.jpg": {
 		"ft": 16384,
 		"iS": 94261,
 		"oA": 0,
@@ -649,7 +657,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/bp_2.png": {
+	"\/assets\/img\/dp_karma\/BP_2.png": {
 		"ft": 32768,
 		"iS": 345156,
 		"oA": 0,
@@ -657,7 +665,7 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/dp_karma\/bp_3.png": {
+	"\/assets\/img\/dp_karma\/BP_3.png": {
 		"ft": 32768,
 		"iS": 291557,
 		"oA": 0,
@@ -665,7 +673,7 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/img\/dp_karma\/bp_4.png": {
+	"\/assets\/img\/dp_karma\/BP_4.png": {
 		"ft": 32768,
 		"iS": 505391,
 		"oA": 0,
@@ -729,7 +737,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/karmacard.jpg": {
+	"\/assets\/img\/dp_karma\/karmaCard.jpg": {
 		"ft": 16384,
 		"iS": 137958,
 		"oA": 0,
@@ -1029,6 +1037,14 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/57_COnstruction.jpg",
 		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/img\/dp_shattered\/57_COnstruction.jpg": {
+		"ft": 16384,
+		"iS": 303585,
+		"oA": 0,
+		"oAP": "\/assets\/img\/dp_shattered\/57_COnstruction.jpg",
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/5_Strings.jpg": {
@@ -1258,6 +1274,14 @@
 		"iS": 19828,
 		"oA": 0,
 		"oAP": "\/assets\/img\/home\/solotouch_cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/me_footer.jpg": {
+		"ft": 16384,
+		"iS": 338446,
+		"oA": 0,
+		"oAP": "\/assets\/img\/me_footer.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1664,10 +1688,10 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/CV_New 2.2.pdf": {
+	"\/CV.pdf": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/CV_New 2.2.pdf",
+		"oAP": "\/CV.pdf",
 		"oF": 0
 		},
 	"\/favicon.ico": {

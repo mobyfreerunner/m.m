@@ -1,14 +1,17 @@
 $vibrantYellow: #FFBC00
 
-.stick
-    position: fixed
-    top: 0
-    width: 100%
-
 .navigation_bar
   height: 64px
-  //background-color: green
+  background-color: $vibrantYellow
   z-index: 50
+  position: fixed
+  top: 0
+  width: 100%
+  opacity: 0
+  transition: all 0.2s linear
+
+.nav_show
+  opacity: 1
 
 .navigation_items
   position: relative
