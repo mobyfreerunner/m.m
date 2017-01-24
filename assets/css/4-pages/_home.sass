@@ -5,6 +5,8 @@
   background-color: #EFEFEF
 
 .img
+  width: 500px
+  height: 500px
   transform: translateY(0px)
   transition: all 0.5s ease-in-out
 
@@ -16,16 +18,6 @@
   min-height: 600px
   .desc_serif
     font-family: Lora
-  &:hover
-    .proj_img
-      .img
-        transform: scale(1.1)
-    .proj_des
-      .des_body
-        .desc_bod
-          color: lighten(#333333, 20%)
-          .desc_light
-            color: #0D94FF
   //background-color: pink
 
 .proj_img
@@ -63,6 +55,9 @@
 
 .align_right
   text-align: right
+
+.align_left
+  text-align: left
 
 .desc_light
   transition: all 0.2s ease-in-out
@@ -112,7 +107,7 @@
     height: 60px
     width: 250px
     padding: 0 30px
-    color: #0D94FF
+    color: #579F9A
     text-align: center
     font-size: 20px
     font-weight: 400
@@ -121,14 +116,14 @@
     white-space: nowrap
     background-color: transparent
     border-radius: 6px
-    border: solid #0D94FF
+    border: solid #579F9A
     cursor: pointer
     box-sizing: border-box
     //filter: $dropshadow
     transition: all 0.3s ease-in-out
     &:hover
       color: white
-      background-color: #0D94FF
+      background-color: #579F9A
       outline: 0
 
 .swap
@@ -154,16 +149,16 @@
     line-height: 38px
     text-decoration: none
     white-space: nowrap
-    background-color: #0D94FF
+    background-color: #579F9A
     border-radius: 6px
-    border: solid #0D94FF
+    border: solid #579F9A
     cursor: pointer
     box-sizing: border-box
     //filter: $dropshadow
     transition: all 0.5s ease-in-out
     &:hover
       color: white
-      background-color: lighten(#0D94FF, 20%)
+      background-color: lighten(#579F9A, 20%)
       outline: 0
 
 #social_container
@@ -174,7 +169,7 @@
 .socialBox
   display: flex
   position: relative
-  background-color: pink
+  //background-color: pink
   height: auto
   justify-content: center
   .youtube, .medium, .instagram, .behance
@@ -311,9 +306,6 @@
     width: calc(100%/3)
     height: 300px
     background-color: lighten(#FFBC00, 10%)
-    &:hover
-      .facebook_logo
-        fill: white
         //transform: scale(1.8)
         //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
 
@@ -323,9 +315,6 @@
     width: calc(100%/3)
     height: 300px
     background-color: lighten(#FFBC00, 10%)
-    &:hover
-      .mail_logo
-        fill: white
         //transform: scale(1.8)
         //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
 
@@ -335,9 +324,6 @@
     width: calc(100%/3)
     height: 300px
     background-color: lighten(#FFBC00, 10%)
-    &:hover
-      .phone_logo
-        fill: white
         //transform: scale(1.8)
         //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
 
@@ -347,8 +333,10 @@
     width: calc(100%/3)
     height: 300px
     background-color: lighten(#FFBC00, 10%)
-    &:hover
-      .in_logo
-        fill: white
         //transform: scale(1.8)
         //filter: drop-shadow(4px 4px 5px rgba(black, 0.2))
+
+#end
+  height: 3px
+  width: 980px
+  background-color: silver

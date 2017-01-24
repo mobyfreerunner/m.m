@@ -65,11 +65,11 @@ $( document ).ready(function() {
       location.href='/#contact_container';
   });
 
-  $(".tldr_link").click(function() {
-      $("#end").ScrollTo( {
-        duration: 2000
-      });
-  });
+  // $(".tldr_link").click(function() {
+  //     $("#end").ScrollTo( {
+  //       duration: 2000
+  //     });
+  // });
 
   //-----------Contact Stuff------------//
 

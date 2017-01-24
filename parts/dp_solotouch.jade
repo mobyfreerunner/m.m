@@ -2,9 +2,10 @@
   // Header for the entire page
   section.section
     h1.header Solotouch
-    
-  div.diagram
-    img.picGal(src="../../assets/img/dp_solotouch/solo.jpg")
+  
+  section.section  
+    div.diagram
+      img.picGal.flexerWidth(src="../../assets/img/dp_solotouch/solo.jpg")
 
   section.section
     h2.header_2 Introduction
@@ -35,7 +36,7 @@
     
   section.section
     div.diagram
-      img.picLong(src="../../assets/img/dp_solotouch/lume.jpg")
+      img.picLong.flexerWidth(src="../../assets/img/dp_solotouch/lume.jpg")
       
   section.section
     h2.header_2 Motivation
@@ -45,9 +46,10 @@
     
   section.section
     p.par We believe by automating the complexity of music playing, anyone could perform great music with minimum training.
-    
-  div.diagram
-    img.picLong(src="../../assets/img/dp_solotouch/noscore.png")
+  
+  section.section  
+    div.diagram
+      img.picLong.flexerWidth(src="../../assets/img/dp_solotouch/noscore.png")
       
   section.section
     h3.quote By automating the complexity of music playing, anyone could perform great music with minimum training.
@@ -88,9 +90,9 @@
   section.section
     p.par To easily switch between phrases, I also made a (pretty terrible) controller interface on the iPhone using TouchOSC.
   
-
-  div.diagram
-    img.picGal(src="../../assets/img/dp_solotouch/touchosc.png")
+  section.section
+    div.diagram
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/touchosc.png")
     
   #end
   
@@ -102,9 +104,10 @@
     
   section.section
     p.par <strong>Solution:</strong> A pivoting touch surface that plays a note on touch and bends its pitch when pushed further, offering an easy gesture for playing vibrato.
-    
-  div.diagram
-    img.picGal(src="../../assets/img/dp_solotouch/sketch.jpg")
+  
+  section.section
+    div.diagram
+      img.picGal.flexerWidth(src="../../assets/img/dp_solotouch/sketch.jpg")
       
   section.section
     p.par With Mubarak’s 3D modeling skills, we modeled and printed our first hardware prototype using the school’s newly installed 3D printer.
@@ -114,8 +117,8 @@
     
   section.section
     div.diagram
-      img.picGal(src="../../assets/img/dp_solotouch/model.jpg")
-      img.picGal(src="../../assets/img/dp_solotouch/prototype1.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/model.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/prototype1.jpg")
       
   section.section
     h3.quote Seeing our design come to life was an unforgettable moment, but it also uncovered engineering problems that did not exist in software.
@@ -123,25 +126,25 @@
   section.section
     p.par <strong>Problem #1:</strong> Insert both axles into the touch platform required splitting the case into two pieces, which would collapse easily under force.
     
-
-  div.diagram
-    img.picGal(src="../../assets/img/dp_solotouch/prototype2.jpg")
+  section.section
+    div.diagram
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/prototype2.jpg")
       
   section.section
     p.par <strong>Solution:</strong> We replaced the axles with a long metal rod, allowing us to design a unibody case. (We spent days looking for such rod, and finally found the perfect one in a toy car.)
     
   section.section
     div.diagram
-      img.picGal(src="../../assets/img/dp_solotouch/rod.jpg")
-      img.picGal(src="../../assets/img/dp_solotouch/rodthrough.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/rod.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/rodthrough.jpg")
       
   section.section
     p.par <strong>Problem #2:</strong> We needed a sensor to capture the platform’s rotation, unfortunately our gear + potentiometer mechanism didn’t work so well.
     
   section.section
     div.diagram
-      img.picGal(src="../../assets/img/dp_solotouch/gear.jpg")
-      img.picGal(src="../../assets/img/dp_solotouch/gear2.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/gear.jpg")
+      img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/gear2.jpg")
       
   section.section
     p.par <strong>Solution:</strong> Just before demo day I made a workaround simply by taping a flex sensor underneath the platform and converted its flex angle as input. Surprisingly we've achieved similar results with a much simpler solution.
@@ -177,8 +180,9 @@
   section.section
     p.par SoloTouch was very well received by a broad range of audiences and became a huge success.Our paper on SoloTouch was published by NIME, one of the most renowned music HCI conferences, followed by a trip to Korea for a demo and poster session.
   
-  div.diagram
-    img.picLong(src="../../assets/img/dp_solotouch/paper.png")
+  section.section
+    div.diagram
+      img.picLong.flexerWidth(src="../../assets/img/dp_solotouch/paper.png")
     
   section.section
     h3.quote SoloTouch was very well received by a broad range of audiences and became a huge success.
@@ -196,7 +200,7 @@
     
   section.section
     div.diagram
-      video.video(width="1280", height="720" controls)
+      video.video(width="980", height="551" controls)
         source(src="../../assets/img/dp_solotouch/SoloTouch-HD.mp4", type="video/mp4")
     
   section.section

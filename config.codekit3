@@ -7,7 +7,7 @@
 		"uuidString": "801925DB-1763-46CD-BA40-E1F52E9F1114"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -17,7 +17,7 @@
 		},
 	"\/allwork.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/allwork.html",
 		"oF": 0
 		},
@@ -317,7 +317,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/assets\/css\/main-min.css",
 		"oF": 0,
 		"oS": 0
@@ -341,7 +341,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/color_bg.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/bgs\/funkyaqua-bg.gif": {
 		"ft": 4194304,
@@ -349,15 +349,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/funkyaqua-bg.gif",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/bgs\/hero.jpg": {
-		"ft": 16384,
-		"iS": 3379486,
-		"oA": 0,
-		"oAP": "\/assets\/img\/bgs\/hero.jpg",
-		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/bgs\/instagram_gradient.jpg": {
 		"ft": 16384,
@@ -389,7 +381,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/midnight.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/bgs\/nature.gif": {
 		"ft": 4194304,
@@ -397,7 +389,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/nature.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/bgs\/noctornal.gif": {
 		"ft": 4194304,
@@ -413,7 +405,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/pixelnight-bg.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/bgs\/t_landing-bg.gif": {
 		"ft": 4194304,
@@ -421,9 +413,9 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bgs\/t_landing-bg.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
-	"\/assets\/img\/dp_aurora\/anantika.jpg": {
+	"\/assets\/img\/dp_aurora\/Anantika.jpg": {
 		"ft": 16384,
 		"iS": 94261,
 		"oA": 0,
@@ -455,7 +447,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_aurora\/Immersion.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_aurora\/Immersion2Glow.jpg": {
 		"ft": 16384,
@@ -463,7 +455,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_aurora\/Immersion2Glow.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_aurora\/paper.jpg": {
 		"ft": 16384,
@@ -471,7 +463,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_aurora\/paper.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_aurora\/wire.png": {
 		"ft": 32768,
@@ -479,52 +471,52 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_aurora\/wire.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
-	"\/assets\/img\/dp_iques\/brainstorm.png": {
-		"ft": 32768,
-		"iS": 266691,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/brainstorm.png",
+	"\/assets\/img\/dp_iques\/brainstorm.jpg": {
+		"ft": 16384,
+		"iS": 34341,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/brainstorm.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Interview_1.png": {
-		"ft": 32768,
-		"iS": 42756,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Interview_1.png",
+	"\/assets\/img\/dp_iques\/Interview_1.jpg": {
+		"ft": 16384,
+		"iS": 28925,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Interview_1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Interview_2.png": {
-		"ft": 32768,
-		"iS": 37633,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Interview_2.png",
+	"\/assets\/img\/dp_iques\/Interview_2.jpg": {
+		"ft": 16384,
+		"iS": 27386,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Interview_2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Interview_3.png": {
-		"ft": 32768,
-		"iS": 57470,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Interview_3.png",
+	"\/assets\/img\/dp_iques\/Interview_3.jpg": {
+		"ft": 16384,
+		"iS": 35893,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Interview_3.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/iPhone_Mock.png": {
-		"ft": 32768,
-		"iS": 324372,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/iPhone_Mock.png",
+	"\/assets\/img\/dp_iques\/iPhone_Mock.jpg": {
+		"ft": 16384,
+		"iS": 92690,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/iPhone_Mock.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_detailedjourney.jpg": {
 		"ft": 16384,
-		"iS": 402657,
-		"oA": 0,
+		"iS": 84733,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/iquestion_detailedjourney.jpg",
 		"oF": 0,
 		"opt": 0
@@ -532,55 +524,47 @@
 	"\/assets\/img\/dp_iques\/iquestion_hero.jpg": {
 		"ft": 16384,
 		"iS": 342933,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/iquestion_hero.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/iQuestion_Poster.png": {
-		"ft": 32768,
-		"iS": 878949,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/iQuestion_Poster.png",
+	"\/assets\/img\/dp_iques\/iQuestion_Poster.jpg": {
+		"ft": 16384,
+		"iS": 119093,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/iQuestion_Poster.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_WB.jpg": {
 		"ft": 16384,
-		"iS": 97102,
-		"oA": 0,
+		"iS": 52030,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/iquestion_WB.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/img\/dp_iques\/iQuestion_WB.png": {
-		"ft": 32768,
-		"iS": 177625,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/iQuestion_WB.png",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_WB_2.jpg": {
 		"ft": 16384,
-		"iS": 86932,
-		"oA": 0,
+		"iS": 44926,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/iquestion_WB_2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Iteration.png": {
-		"ft": 32768,
-		"iS": 194214,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Iteration.png",
+	"\/assets\/img\/dp_iques\/iteration.jpg": {
+		"ft": 16384,
+		"iS": 28522,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/iteration.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iteration2.png": {
 		"ft": 32768,
 		"iS": 157622,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/iteration2.png",
 		"oF": 0,
 		"opt": 0
@@ -588,7 +572,7 @@
 	"\/assets\/img\/dp_iques\/logos_font.png": {
 		"ft": 32768,
 		"iS": 123577,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/logos_font.png",
 		"oF": 0,
 		"opt": 0
@@ -596,90 +580,90 @@
 	"\/assets\/img\/dp_iques\/ResearchFindings.png": {
 		"ft": 32768,
 		"iS": 278796,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/ResearchFindings.png",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/screens.png": {
-		"ft": 32768,
-		"iS": 295695,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/screens.png",
+	"\/assets\/img\/dp_iques\/screens.jpg": {
+		"ft": 16384,
+		"iS": 70448,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/screens.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/siri.jpg": {
 		"ft": 16384,
-		"iS": 32722,
-		"oA": 0,
+		"iS": 57183,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/siri.jpg",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/smartass.jpg": {
 		"ft": 16384,
-		"iS": 99910,
-		"oA": 0,
+		"iS": 48327,
+		"oA": 2,
 		"oAP": "\/assets\/img\/dp_iques\/smartass.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Survey_1.png": {
-		"ft": 32768,
-		"iS": 32670,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Survey_1.png",
+	"\/assets\/img\/dp_iques\/Survey_1.jpg": {
+		"ft": 16384,
+		"iS": 32277,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Survey_1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Survey_2.png": {
-		"ft": 32768,
-		"iS": 35277,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Survey_2.png",
+	"\/assets\/img\/dp_iques\/Survey_2.jpg": {
+		"ft": 16384,
+		"iS": 37470,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Survey_2.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_iques\/Survey_3.png": {
-		"ft": 32768,
-		"iS": 35749,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_iques\/Survey_3.png",
+	"\/assets\/img\/dp_iques\/Survey_3.jpg": {
+		"ft": 16384,
+		"iS": 34896,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_iques\/Survey_3.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/BP_1.png": {
-		"ft": 32768,
-		"iS": 2753911,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/BP_1.png",
+	"\/assets\/img\/dp_karma\/bp_1.jpg": {
+		"ft": 16384,
+		"iS": 66245,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/bp_1.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/BP_2.png": {
-		"ft": 32768,
-		"iS": 345156,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/BP_2.png",
+	"\/assets\/img\/dp_karma\/bp_2.jpg": {
+		"ft": 16384,
+		"iS": 64830,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/bp_2.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/BP_3.png": {
-		"ft": 32768,
-		"iS": 291557,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/BP_3.png",
+	"\/assets\/img\/dp_karma\/bp_3.jpg": {
+		"ft": 16384,
+		"iS": 51003,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/bp_3.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/BP_4.png": {
-		"ft": 32768,
-		"iS": 505391,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/BP_4.png",
+	"\/assets\/img\/dp_karma\/bp_4.jpg": {
+		"ft": 16384,
+		"iS": 56801,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/bp_4.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/commercial_1.jpg": {
 		"ft": 16384,
@@ -687,13 +671,13 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/commercial_1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
-	"\/assets\/img\/dp_karma\/experiment.png": {
-		"ft": 32768,
-		"iS": 51238,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/experiment.png",
+	"\/assets\/img\/dp_karma\/experiment.jpg": {
+		"ft": 16384,
+		"iS": 125374,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/experiment.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -703,7 +687,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/k_1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/k_2.jpg": {
 		"ft": 16384,
@@ -711,7 +695,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/k_2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/k_3.jpg": {
 		"ft": 16384,
@@ -719,7 +703,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/k_3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/k_4.jpg": {
 		"ft": 16384,
@@ -727,15 +711,15 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/k_4.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/K_5.jpg": {
 		"ft": 16384,
 		"iS": 112321,
 		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/K_5.jpg",
+		"oAP": "\/assets\/img\/dp_karma\/k_5.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/karmaCard.jpg": {
 		"ft": 16384,
@@ -743,7 +727,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/karmaCard.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/lines.jpg": {
 		"ft": 16384,
@@ -751,7 +735,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/lines.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_karma\/sign.jpg": {
 		"ft": 16384,
@@ -759,13 +743,13 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/sign.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
-	"\/assets\/img\/dp_karma\/storyboard.png": {
-		"ft": 32768,
-		"iS": 169291,
-		"oA": 0,
-		"oAP": "\/assets\/img\/dp_karma\/storyboard.png",
+	"\/assets\/img\/dp_karma\/storyboard.jpg": {
+		"ft": 16384,
+		"iS": 56845,
+		"oA": 2,
+		"oAP": "\/assets\/img\/dp_karma\/storyboard.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -775,7 +759,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_karma\/swipe.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/10_Pattern.jpeg": {
 		"ft": 16384,
@@ -783,7 +767,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/10_Pattern.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/11_String.jpg": {
 		"ft": 16384,
@@ -791,7 +775,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/11_String.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/13_MeTechnical.jpeg": {
 		"ft": 16384,
@@ -799,7 +783,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/13_MeTechnical.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/15_DailyMeeting.jpeg": {
 		"ft": 16384,
@@ -807,7 +791,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/15_DailyMeeting.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/17_Technical.jpeg": {
 		"ft": 16384,
@@ -815,7 +799,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/17_Technical.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/18_TechnicalWall.jpeg": {
 		"ft": 16384,
@@ -839,7 +823,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/1_geometric.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/20_SlidingWall.jpeg": {
 		"ft": 16384,
@@ -847,7 +831,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/20_SlidingWall.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/23_WallWheel.jpeg": {
 		"ft": 16384,
@@ -863,7 +847,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/24_WallWheel.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/25_WallBuilding.jpeg": {
 		"ft": 16384,
@@ -871,7 +855,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/25_WallBuilding.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/26_Laser.jpeg": {
 		"ft": 16384,
@@ -879,7 +863,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/26_Laser.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/28_Motor.jpeg": {
 		"ft": 16384,
@@ -887,7 +871,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/28_Motor.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/29_Lights.jpeg": {
 		"ft": 16384,
@@ -903,7 +887,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/2_strings.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/2_strings_s.jpg": {
 		"ft": 16384,
@@ -911,7 +895,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/2_strings_s.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/31_BetterModel.jpeg": {
 		"ft": 16384,
@@ -919,7 +903,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/31_BetterModel.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/34_Wood.jpeg": {
 		"ft": 16384,
@@ -935,7 +919,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/35_Hammer.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/36_FullWall.jpeg": {
 		"ft": 16384,
@@ -943,7 +927,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/36_FullWall.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/38_WallBracketInstallation.jpeg": {
 		"ft": 16384,
@@ -951,7 +935,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/38_WallBracketInstallation.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/39_Sensors.jpeg": {
 		"ft": 16384,
@@ -959,7 +943,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/39_Sensors.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/3_Planning.jpg": {
 		"ft": 16384,
@@ -967,7 +951,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/3_Planning.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/41_WallMotorCode.jpeg": {
 		"ft": 16384,
@@ -975,7 +959,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/41_WallMotorCode.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/44_WallBounce.mp4": {
 		"ft": 8192,
@@ -989,7 +973,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/47_String.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/49_PortableLift.jpeg": {
 		"ft": 16384,
@@ -997,7 +981,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/49_PortableLift.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/50_Wall.jpeg": {
 		"ft": 16384,
@@ -1005,7 +989,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/50_Wall.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/51_Wall.jpeg": {
 		"ft": 16384,
@@ -1013,7 +997,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/51_Wall.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/53_StringIsUp.jpeg": {
 		"ft": 16384,
@@ -1021,7 +1005,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/53_StringIsUp.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/55_Coding.jpeg": {
 		"ft": 16384,
@@ -1042,7 +1026,7 @@
 	"\/assets\/img\/dp_shattered\/57_COnstruction.jpg": {
 		"ft": 16384,
 		"iS": 303585,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/img\/dp_shattered\/57_COnstruction.jpg",
 		"oF": 0,
 		"opt": 0
@@ -1053,7 +1037,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/5_Strings.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/7_modelbuilding.jpg": {
 		"ft": 16384,
@@ -1061,7 +1045,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/7_modelbuilding.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/8_modelbuilding.jpg": {
 		"ft": 16384,
@@ -1069,7 +1053,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/8_modelbuilding.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_shattered\/lobby.jpg": {
 		"ft": 16384,
@@ -1077,7 +1061,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_shattered\/lobby.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/carnival.jpg": {
 		"ft": 16384,
@@ -1109,7 +1093,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/flexaction.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/gear.jpg": {
 		"ft": 16384,
@@ -1157,7 +1141,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/noscore.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/paper.png": {
 		"ft": 32768,
@@ -1165,7 +1149,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/paper.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/prototype1.jpg": {
 		"ft": 16384,
@@ -1213,7 +1197,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/solo.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/SoloTouch-HD.mp4": {
 		"ft": 8192,
@@ -1227,7 +1211,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/solotouch_cover.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/dp_solotouch\/touchosc.png": {
 		"ft": 32768,
@@ -1235,7 +1219,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/dp_solotouch\/touchosc.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/home\/Aurora.png": {
 		"ft": 32768,
@@ -1243,7 +1227,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/home\/Aurora.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/home\/home_iquestion.png": {
 		"ft": 32768,
@@ -1251,7 +1235,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/home\/home_iquestion.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/home\/home_karma.png": {
 		"ft": 32768,
@@ -1259,7 +1243,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/home\/home_karma.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/home\/Shattered-Communities.jpg": {
 		"ft": 16384,
@@ -1283,7 +1267,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/me_footer.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/me_intro_small.jpg": {
 		"ft": 16384,
@@ -1291,7 +1275,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/me_intro_small.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/assets\/img\/svgs\/arrow.svg": {
 		"ft": 2097152,
@@ -1557,42 +1541,24 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/title_1.png",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/js\/functions-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/functions-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"opt": 1
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/functions-min.js",
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/functions.js",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/inview.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/inview-min.js",
-		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery-3.1.1.min.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-3.1.1.min-min.js",
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-3.1.1.min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery-scrollto\/demo\/index.html": {
@@ -1609,11 +1575,11 @@
 		},
 	"\/assets\/js\/jquery-scrollto\/lib\/jquery-scrollto.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-scrollto\/lib\/jquery-scrollto-min.js",
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/lib\/jquery-scrollto.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery-scrollto\/styles\/generic.css": {
@@ -1648,11 +1614,11 @@
 		},
 	"\/assets\/js\/jquery-scrollto\/vendor\/jquery.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-scrollto\/vendor\/jquery-min.js",
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/jquery-scrollto\/vendor\/jquery.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/assets\/js\/jquery-scrollto\/vendor\/yui-cssreset.css": {
@@ -1665,13 +1631,31 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/assets\/js\/jquery-ui.js": {
+	"\/assets\/js\/p5.dom.js": {
 		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-ui-min.js",
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/p5.dom.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/p5.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/p5.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/sketch.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/assets\/js\/sketch.js",
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/aurora.html": {
@@ -1702,7 +1686,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
@@ -1716,7 +1700,7 @@
 		},
 	"\/intro.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/intro.html",
 		"oF": 0
 		},
@@ -1852,14 +1836,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/parts\/sections\/heading.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/parts\/sections\/heading.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/parts\/sections\/landing.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -1886,7 +1862,7 @@
 		},
 	"\/parts\/template.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/parts\/template.html",
 		"oF": 0
 		},
@@ -1935,10 +1911,11 @@
 	"creationDate": 503640682,
 	"displayValue": "mubarakmarafa.com",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-jake"
+	"iconImageName": "meme-jake",
+	"lastBuiltDate": 506859300
 	},
 "projectSettings": {
-	"abortBuildOnError": 1,
+	"abortBuildOnError": 0,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -2583,6 +2560,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -3123,6 +3104,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -3638,7 +3623,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.gif",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3661,7 +3646,7 @@
 		"useUnixNewlines": 0
 		},
 	"languageDefaultsJPG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.jpg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3669,15 +3654,15 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -3754,7 +3739,7 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 2,
 		"autoOutputPathFilenamePattern": "*.png",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
