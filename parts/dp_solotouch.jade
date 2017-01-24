@@ -32,7 +32,7 @@
     h2.header_3 Context
     
   section.section
-    p.par SoloTouch is my second project under LUME, a research program aimed at creating musical interfaces for individuals with special needs. In this project, I partnered with Mubarak Marafa to design an instrument for those who lack access to formal musical training.
+    p.par SoloTouch was a research project developed while at LUME, a research program aimed at creating musical interfaces for individuals with special needs. In this project, I partnered with Jackie Chui to design an instrument for those who lack access to formal musical training.
     
   section.section
     div.diagram
@@ -42,10 +42,10 @@
     h2.header_2 Motivation
     
   section.section
-    p.par As a drum instructor, I have always dreamed of a way for non-musicians to enjoy playing music without having to learn complex music theories and techniques.
+    p.par I love music, but without any formal musical training a big part of music is inaccessible to me. Musical Creation. So we set out to develop a way to enjoy playing music without having to learn complex music theories and techniques.
     
   section.section
-    p.par We believe by automating the complexity of music playing, anyone could perform great music with minimum training.
+    p.par We believed that by automating the complexity of music playing, anyone could perform great music with minimum training. We brought it back to being about pure expression, just like beating a drum.
   
   section.section  
     div.diagram
@@ -58,17 +58,17 @@
     h2.header_3 Identifying Challenges
     
   section.section
-    p.par We began by looking at challenges faced by novice musicians today. Based on some informal interviews and my own experience as a music instructor, we have identified two of the most common difficulties:
+    p.par We began by looking at challenges faced by novice musicians today (Me). Based on some informal interviews, we identified two of the most common difficulties:
     
   section.section
     ul.secList
       li
         span <strong>Note selection</strong> — Difficulty in finding the ‘right notes’ to play.
       li 
-        span <strong>Physical control</strong> — Difficulty in handling an instrument.
+        span <strong>Physical control</strong> — Difficulty in handling an instrument. (Finger Dexterity)
         
   section.section
-    p.par I believe a successful instrument should not only be user-friendly, but also expressive; therefore our design goal was to strike a balance between ease of use and expressiveness.
+    p.par We believed that a successful instrument should not only be user-friendly, but also expressive; therefore our design goal was to strike a balance between ease of use and expressiveness.
     
   section.section
     h3.quote Our design goal was to strike a balance between ease of use and expressiveness.
@@ -83,12 +83,12 @@
     p.par <strong>Solution:</strong> A software system that automatically selects notes in a scale, so players don’t have to learn them.
     
   section.section
-    p.par Using the visual programming tool Max, I experimented with various system concepts before settling on one that allowed players to combine different short phrases into unique melodies.
+    p.par Using the visual programming tool Max, We experimented with various system concepts before settling on one that allowed players to combine different short phrases into unique melodies.
     
   <iframe width="560" height="315" src="https://www.youtube.com/embed/xnfK-4h73TI" frameborder="0" allowfullscreen></iframe>
   
   section.section
-    p.par To easily switch between phrases, I also made a (pretty terrible) controller interface on the iPhone using TouchOSC.
+    p.par To easily switch between phrases, My partner also made a (fantastic) controller interface on the iPhone using TouchOSC.
   
   section.section
     div.diagram
@@ -110,7 +110,7 @@
       img.picGal.flexerWidth(src="../../assets/img/dp_solotouch/sketch.jpg")
       
   section.section
-    p.par With Mubarak’s 3D modeling skills, we modeled and printed our first hardware prototype using the school’s newly installed 3D printer.
+    p.par With my 3D modeling skills, we modeled and printed our first hardware prototype using the school’s newly installed 3D printer.
     
   section.section
     p.par Seeing our design come to life was an unforgettable moment, but it also uncovered engineering problems that did not exist in software. We tackled these problems one at a time across multiple iterations.
@@ -147,7 +147,7 @@
       img.picGal.flexerHeight(src="../../assets/img/dp_solotouch/gear2.jpg")
       
   section.section
-    p.par <strong>Solution:</strong> Just before demo day I made a workaround simply by taping a flex sensor underneath the platform and converted its flex angle as input. Surprisingly we've achieved similar results with a much simpler solution.
+    p.par <strong>Solution:</strong> Just before demo day my partner Jackie made a workaround simply by taping a flex sensor underneath the platform and converted its flex angle as input. Surprisingly we've achieved similar results with a much simpler solution. This taught me the key importance of simplicity.
     
   section.section
     div.diagram
@@ -161,7 +161,7 @@
     h2.header_3 System: Redesigned
     
   section.section
-    p.par We received very positive feedback for our hardware but many people found the software too complicated to learn. In response to that, I bit the bullet and redesigned the system from scratch.
+    p.par We received very positive feedback for our hardware but many people found the software too complicated to learn. In response to that, My partner bit the bullet and redesigned the system from scratch.
     
   section.section
     p.par <strong>Challenge:</strong> Advanced players preferred more controls and options, whereas beginners were overwhelmed by options.
@@ -199,17 +199,27 @@
     p.par Finally, we were sponsored by the university for a <strong>patent</strong> on our design and were approached by companies interested in commercializing our work.
     
   section.section
+    h2.header_2 Reflection and Learnings
+    
+  section.section
+    h2.header_3 Challenges:
+    
+  section.section
+    ul.secList.snug
+      li
+        span Keeping things simple. On this project I was responsible for the hardware design of the device. I really got to flex my 3D modelling and printing skills. I was learning on the fly and iterating a lot. Load of prototypes and test models were made. I came up with elaborate mechanisms in my head only to 3D print them and realise it didnt work quite as well as I had imagined it. One example was the tilt functionality.
+      li 
+        span Staying grounded. All our initial electronic prototype were plugged into our computer. When we finally implemented the bluetooth module into the Solotouch, our capacitive sensor had an insane amount of noise and it was unusable. We struggled with this for days until we realised it was stable when plugged in. The Solotouch was grounded through our laptop and when we made it wireless it caused a lot of issues. Because we weren't engineers, we came up with a solution to use the user to ground the device, we had a conducting contact that would be in touch with the user easily.
+
+  section.section
+    h2.header_3 Final Notes:
+    
+  section.section  
+    p.par This project was awesome. A classic idea coming from the "what-if" question. "What-if we created an algorithm to help us play music without any technical knowledge". We made this project for ourselves because of curiosity and exploration. It just turns out that everyone loved it so much.
+    
+  section.section
     div.diagram
       video.video(width="980", height="551" controls)
         source(src="../../assets/img/dp_solotouch/SoloTouch-HD.mp4", type="video/mp4")
-    
-  section.section
-    h2.header_2 Reflections and Learnings
-  
-  section.section
-    p.par SoloTouch was one of my first design projects. It was truly an encouragement to achieve such success from an early attempt in design, one that allowed me to set a high bar for future projects. Looking back at the design, I would definitely improve upon the learnability of our system, perhaps even removing the iPhone controller altogether for further simplicity.
-    
-  section.section
-    p.par I am glad to have gotten our hands on an actual 3D-printed model during the design process, as it enabled us to uncover issues that would not have otherwise been found, leading to the iterative designs that made the final product so much better.
     
   /////////////////////////////////////////////////////

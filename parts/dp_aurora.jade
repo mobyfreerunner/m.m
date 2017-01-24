@@ -22,7 +22,6 @@
       strong description:
       light  An Artistic data visualisation, comparing the ambient light pollution of the least and most light poluted locations in the world. Tsim Tsa Shui, HK and Antarctica.
     
-  #end  
   section.section
     div.diagram
       video.video(width="980", height="461", autoplay loop muted)
@@ -65,17 +64,36 @@
     
   section.section
     p.par For the data collection we used an Arduino based specrometer called the Spectuino to gather ambient light data in both Hong Kong and Antarctica. We then used python to sort through this data and organise it so it was readable to the Open source 3D software called Blender3D. Blender read through this data and used it to drive the animation. We then rendered it out and used a 360 degree projection system to display the visualisation.
-  
+    
   section.section  
     div.diagram
       img.picLong.flexerWidth(src="../../assets/img/dp_aurora/wire.png")
-      
+  
+  #end  
+  
   section.section
-    div.diagram
-      video.video(width="980", height="181", autoplay loop muted)
-        source(src="../../assets/img/dp_aurora/full.mp4", type="video/mp4")
+    h2.header_2 Reflection and Learnings
+    
+  section.section
+    h2.header_3 Challenges:
+    
+  section.section
+    ul.secList.snug
+      li
+        span This was my second real data visualisation project. Unlike the first one which was a robotic installation based on Arduino, this one was particle based and involved a lot more programming. I had massive amounts of data in CSV format and I had to process and parse it to be able to use it to drive my animation. Doing it in real time proved out of my skillset at the time so I decided to use python to drive an animation in Blender 3D. Here's the kicker, I didn't know python. I learned Python from scratch in order to overcome this obstacle.
+      li 
+        span I presented the work in the Gallery 360 in the Run Run Shaw Creative Media Center in Hong Kong. This was essentially a 360 Degree 3D cinema set up, with 5 High Definition 3D projectors mounted pointing outwards towards a 360 degree screen. The result was an immersive screen experience. This presented its own set of problems. The sheer size of the render. The minimum acceptable resolution to get a decent image was 8192 × 1024 and even then it wasn't perfect. I rendered at this resolution to balance render times and quality. I did not have access to a render farm at the time so I essentially built my own. I got to the lab early in the morning (I often would not leave leave for the night) and set up 20+ computers to render to a cloud drive. This is how I rendered such a high resolution.
+
+  section.section
+    h2.header_3 Final Notes:
+    
+  section.section  
+    p.par I learned so much doing this project. Rendering, particle effects, Python, Data visualisation, Using the Arduino Spectrometer to collect data. Even collaborating with a partner who was in Antarctica was a challenge. This was a truly multidisciplinary effort and I grew and learn so much from it.
         
   <iframe src="https://player.vimeo.com/video/148997488?color=ff9933" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  
+  video.video(width="100%", height="auto", autoplay loop muted)
+    source(src="../../assets/img/dp_aurora/full.mp4", type="video/mp4")
     
   /////////////////////////////////////////////////////////////////////////
   
