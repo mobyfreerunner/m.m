@@ -1,0 +1,137 @@
+.navigation_bar
+  height: 64px
+  background-color: $vibrantYellow
+  z-index: 50
+  position: fixed
+  top: 0
+  width: 100%
+  opacity: 0
+  transition: all 0.2s linear
+  &:hover
+    .color_1
+      background-color: $myBlack
+    .color_2
+      background-color: $myRed
+    .color_3
+      background-color: $myTeal
+
+.nav_show
+  opacity: 1
+
+.navigation_items
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  text-align: center
+  margin: auto
+  height: 100%
+  max-width: 980px
+  background-color: $vibrantYellow
+
+  .nav_logo
+    display: flex
+    justify-content: center
+    width: auto
+    height: 64px
+    cursor: pointer
+    //background-color: pink
+    .my_logo
+      fill: $myBlack
+      height: auto
+      width: 80px
+      margin: 0
+      margin-left: 20px
+      transition: all 0.2s ease-in-out
+
+  .nav_main
+    display: flex
+    justify-content: center
+    flex-direction: row
+    width: auto
+    height: 64px
+    padding-right: 0px
+    //background-color: lightblue
+    .btnWork
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav1
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav1
+          color: $vibrantYellow
+
+    .btnSocial
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav2
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav2
+          color: $vibrantYellow
+
+    .btnContact
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav3
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav3
+          color: $vibrantYellow
+
+    .btnEmail
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav4
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav4
+          color: $vibrantYellow

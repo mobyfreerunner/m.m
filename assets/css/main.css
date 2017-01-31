@@ -2899,18 +2899,26 @@ hr {
   width: 100%;
   background-color: #EFEFEF; }
 
+.back {
+  width: 100%;
+  background-color: white; }
+
 .img {
-  width: 500px;
-  height: 500px;
+  max-width: 100%;
+  height: auto;
+  display: block;
   transform: translateY(0px);
   transition: all 0.5s ease-in-out; }
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   max-width: 980px;
-  min-height: 600px; }
+  height: auto;
+  flex-wrap: wrap;
+  overflow: hidden; }
   .container .desc_serif {
     font-family: Lora; }
 
@@ -2918,7 +2926,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 50%;
   height: auto;
   opacity: 1;
   transition: all 0.5s ease-in-out; }
@@ -2927,15 +2935,6 @@ hr {
 
 .iFade {
   opacity: 1; }
-
-.proj_img_test {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: auto; }
-  .proj_img_test .img {
-    transform: translateY(0px); }
 
 .desc_bod {
   font-size: 24px;
@@ -2960,7 +2959,8 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: 50%;
+  min-width: 490px;
   height: auto;
   text-align: center; }
   .proj_des .des_title {
@@ -2987,7 +2987,7 @@ hr {
 
 .des_button .des_cta {
   filter: opacity(1);
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
   height: 60px;
   width: 250px;
@@ -3193,7 +3193,7 @@ hr {
   margin-bottom: 30px; }
 
 /*iPhone 6 Responsive*/
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 667px) {
   .flex_landing .centerWrap .card_logo:hover {
     background-color: #ffc933; }
     .flex_landing .centerWrap .card_logo:hover .my_logo {
@@ -3221,11 +3221,13 @@ hr {
     background-color: #443E3D;
     color: #ffc933; }
   .flex_landing .enter_label:hover .enterLabel_logo {
-    transform: translateY(-20px); }
+    transform: translateY(-15px); }
   .navigation_bar .navigation_items .nav_logo:hover .my_logo {
     fill: white; }
+  .alt_navigation_bar .navigation_items .nav_logo:hover .my_logo {
+    fill: white; }
   .container:hover .proj_img .img {
-    transform: scale(1.1); }
+    transform: scale(1.05); }
   .container:hover .proj_des .des_body .desc_bod {
     color: #666666; }
     .container:hover .proj_des .des_body .desc_bod .desc_light {
@@ -3239,13 +3241,19 @@ hr {
   .contact_me .contactIn:hover .in_logo {
     fill: white; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 980px) {
+  .swap {
+    order: 1; }
+  #work_container .container .proj_img {
+    width: 100%; } }
+
+@media only screen and (max-width: 667px) {
   html, body {
     max-width: 100%; }
   .canvas {
     display: none; }
   .flex_landing .centerWrap {
-    transform: translateY(-100px);
+    transform: translateY(-60px);
     max-width: 370px;
     max-height: 216px;
     font-size: 12px; }
@@ -3263,7 +3271,7 @@ hr {
       font-size: 30px;
       line-height: 40px; }
   .flex_landing .enter_label {
-    top: calc(50% + 7px);
+    top: calc(50% + 48px);
     height: 304px;
     width: 370px; }
     .flex_landing .enter_label .enterLabel_logo {
@@ -3278,6 +3286,15 @@ hr {
         display: none; }
       .navigation_bar .navigation_items .nav_email {
         display: none; }
+  .alt_navigation_bar {
+    width: auto; }
+    .alt_navigation_bar .navigation_items {
+      width: 375px;
+      justify-content: center; }
+      .alt_navigation_bar .navigation_items .nav_main {
+        display: none; }
+      .alt_navigation_bar .navigation_items .nav_email {
+        display: none; }
   #work_container .work_bgContain {
     height: 80px; }
     #work_container .work_bgContain .title_hold .work_title {
@@ -3289,17 +3306,21 @@ hr {
     justify-content: center;
     align-items: center;
     max-width: 375px;
-    min-height: 550px;
-    flex-direction: column; }
+    min-height: 550px; }
     #work_container .container .proj_des {
       margin-top: 0px; }
       #work_container .container .proj_des .des_body .desc_bod {
         text-align: center;
-        font-size: 16px; }
+        font-size: 16px;
+        padding-left: 30px;
+        padding-right: 30px; }
         #work_container .container .proj_des .des_body .desc_bod .desc_light {
           font-size: 24px; }
-    #work_container .container .des_button .des_cta {
-      margin-bottom: 0px; }
+    #work_container .container .des_button {
+      text-align: center; }
+      #work_container .container .des_button .des_cta {
+        margin-top: 25px;
+        margin-bottom: 25px; }
   #work_container .swap {
     order: 0; }
   #social_container .social_bgContain {
@@ -3369,11 +3390,84 @@ hr {
     .templateWrap.push .par {
       font-size: 16px;
       padding-left: 0px;
-      padding-right: 0px; } }
+      padding-right: 0px; }
+  .templateWrap .diagram {
+    flex-wrap: wrap; }
+  .templateWrap .hero {
+    background-size: contain;
+    background-position: center; }
+  .templateWrap .section {
+    width: 375px; }
+    .templateWrap .section .header {
+      font-size: 68px;
+      padding: 0px;
+      padding-top: 64px; }
+    .templateWrap .section .header_2 {
+      font-size: 48px; }
+    .templateWrap .section .header_3 {
+      font-size: 28px;
+      padding-left: 10px;
+      padding-right: 0px; }
+    .templateWrap .section .header_4 {
+      font-size: 16px;
+      transform: translateY(-40px); }
+    .templateWrap .section .par {
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .templateWrap .section .flexerWidth {
+      max-width: 375px;
+      height: auto; }
+    .templateWrap .section .picLong {
+      max-width: 375px;
+      height: auto; }
+    .templateWrap .section .picGal {
+      max-width: 375px;
+      height: auto; }
+    .templateWrap .section .secList {
+      font-size: 16px;
+      padding-left: 0px;
+      padding-right: 30px;
+      margin-left: 40px; }
+    .templateWrap .section .secListNum {
+      font-size: 20px;
+      padding-left: 0px;
+      padding-right: 30px;
+      margin-left: 40px;
+      text-indent: 0px; }
+      .templateWrap .section .secListNum .ol {
+        font-size: 16px; }
+    .templateWrap .section .quote {
+      font-size: 18px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      .templateWrap .section .quote:after {
+        width: 20px;
+        height: 20px;
+        transform: translate(5px, 8px); }
+      .templateWrap .section .quote:before {
+        width: 20px;
+        height: 20px;
+        transform: translate(-25px, 0px); }
+  .templateWrap .iques_frame {
+    width: 375px;
+    height: 211px; }
+  .templateWrap .iques_frame {
+    width: 375px;
+    height: 211px; }
+  .templateWrap .flexMod {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; } }
 
 html, body {
   max-width: 100%;
   overflow-x: hidden; }
+
+.body_home {
+  background-color: #FFBC00; }
 
 .flex_landing {
   display: flex;
@@ -3386,14 +3480,14 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: left;
-    width: 980px;
-    height: 571px;
+    width: 700px;
+    height: 408px;
     border-radius: 30px;
     box-shadow: 0 80px 80px -40px rgba(0, 0, 0, 0.5);
     flex-wrap: wrap;
     transition: all 0.3s ease-in-out;
-    font-size: 80px;
-    line-height: 130px; }
+    font-size: 50px;
+    line-height: 102px; }
     .flex_landing .centerWrap .card_logo {
       display: flex;
       justify-content: center;
@@ -3408,7 +3502,8 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_logo .my_logo {
         fill: #ffc933;
-        transition: all 0.3s ease-in-out; }
+        transition: all 0.3s ease-in-out;
+        max-width: 200px; }
     .flex_landing .centerWrap .card_name {
       display: flex;
       justify-content: center;
@@ -3421,7 +3516,7 @@ html, body {
       height: 25%;
       width: 65%; }
       .flex_landing .centerWrap .card_name .logo_name {
-        width: 580px;
+        width: 400px;
         fill: #443E3D; }
     .flex_landing .centerWrap .card_ixd {
       box-sizing: border-box;
@@ -3433,7 +3528,8 @@ html, body {
       width: 100%;
       color: #443E3D;
       text-align: center;
-      font-family: Lora; }
+      font-family: Lora;
+      cursor: default; }
     .flex_landing .centerWrap .card_face {
       display: flex;
       justify-content: center;
@@ -3447,7 +3543,7 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_face .facebook_logo {
         fill: #ffc933;
-        width: 100px; }
+        width: 70px; }
     .flex_landing .centerWrap .card_mail {
       display: flex;
       justify-content: center;
@@ -3461,7 +3557,7 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_mail .mail_logo {
         fill: #ffc933;
-        width: 100px; }
+        width: 70px; }
     .flex_landing .centerWrap .card_in {
       display: flex;
       justify-content: center;
@@ -3475,7 +3571,7 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_in .in_logo {
         fill: #ffc933;
-        width: 100px; }
+        width: 70px; }
     .flex_landing .centerWrap .card_phone {
       display: flex;
       justify-content: center;
@@ -3489,7 +3585,7 @@ html, body {
       cursor: pointer; }
       .flex_landing .centerWrap .card_phone .phone_logo {
         fill: #ffc933;
-        width: 100px; }
+        width: 70px; }
     .flex_landing .centerWrap .card_resume {
       box-sizing: border-box;
       background-color: #ffc933;
@@ -3521,25 +3617,23 @@ html, body {
 
 .enter_label {
   text-align: center;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 270px;
   position: absolute;
-  top: calc(50% + 285px);
+  top: calc(50% + 204px);
   left: 50%;
   transform: translate(-50%);
-  z-index: 0;
   overflow: hidden;
   cursor: pointer; }
   .enter_label .enterLabel_logo {
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     fill: #443E3D;
-    transform: translateY(-110px);
-    max-width: 300px;
+    transform: translateY(-80px);
+    max-width: 200px;
     filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.5)); }
 
 .landing {
-  height: 100vh;
-  background-color: #FFBC00; }
+  height: 100vh; }
 
 .my_arrow {
   height: 50px;
@@ -3636,6 +3730,7 @@ html, body {
       height: auto;
       width: 80px;
       margin: 0;
+      margin-left: 20px;
       transition: all 0.2s ease-in-out; }
   .navigation_items .nav_main {
     display: flex;
@@ -3643,84 +3738,87 @@ html, body {
     flex-direction: row;
     width: auto;
     height: 64px;
-    background-color: lightblue; }
-    .navigation_items .nav_main .vbtnWork {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .vbtnWork .nav1 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .vbtnWork:hover {
-        background-color: white; }
-        .navigation_items .nav_main .vbtnWork:hover .nav1 {
-          color: #FFBC00; }
-    .navigation_items .nav_main .vbtnSocial {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .vbtnSocial .nav2 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .vbtnSocial:hover {
-        background-color: white; }
-        .navigation_items .nav_main .vbtnSocial:hover .nav2 {
-          color: #FFBC00; }
-    .navigation_items .nav_main .vbtnContact {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .vbtnContact .nav3 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .vbtnContact:hover {
-        background-color: white; }
-        .navigation_items .nav_main .vbtnContact:hover .nav3 {
-          color: #FFBC00; }
-  .navigation_items .nav_email {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: auto;
-    height: 64px; }
-    .navigation_items .nav_email .vbtnEmail {
+    padding-right: 0px; }
+    .navigation_items .nav_main .btnWork {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
       background-color: #FFBC00;
       transition: all 0.2s ease-in-out;
       cursor: pointer; }
-      .navigation_items .nav_email .vbtnEmail .nav4 {
-        align-self: flex-end;
+      .navigation_items .nav_main .btnWork .nav1 {
         transition: all 0.2s ease-in-out;
         text-decoration: none;
-        color: #443E3D;
+        color: white;
         font-size: 18px;
         font-weight: bold; }
-      .navigation_items .nav_email .vbtnEmail:hover .nav4 {
-        color: white; }
+      .navigation_items .nav_main .btnWork:hover {
+        background-color: white; }
+        .navigation_items .nav_main .btnWork:hover .nav1 {
+          color: #FFBC00; }
+    .navigation_items .nav_main .btnSocial {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .navigation_items .nav_main .btnSocial .nav2 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .navigation_items .nav_main .btnSocial:hover {
+        background-color: white; }
+        .navigation_items .nav_main .btnSocial:hover .nav2 {
+          color: #FFBC00; }
+    .navigation_items .nav_main .btnContact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .navigation_items .nav_main .btnContact .nav3 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .navigation_items .nav_main .btnContact:hover {
+        background-color: white; }
+        .navigation_items .nav_main .btnContact:hover .nav3 {
+          color: #FFBC00; }
+    .navigation_items .nav_main .btnEmail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .navigation_items .nav_main .btnEmail .nav4 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .navigation_items .nav_main .btnEmail:hover {
+        background-color: white; }
+        .navigation_items .nav_main .btnEmail:hover .nav4 {
+          color: #FFBC00; }
 
 .alt_navigation_bar {
   height: 64px;
@@ -3751,7 +3849,7 @@ html, body {
   .tldr_logo .cls-1 {
     fill: none; }
 
-.navigation_items {
+.alt_navigation_items {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -3761,104 +3859,108 @@ html, body {
   height: 100%;
   max-width: 980px;
   background-color: #FFBC00; }
-  .navigation_items .vnav_logo {
+  .alt_navigation_items .vnav_logo {
     display: flex;
     justify-content: center;
     width: auto;
     height: 64px;
     cursor: pointer; }
-    .navigation_items .vnav_logo:hover .my_logo {
+    .alt_navigation_items .vnav_logo:hover .my_logo {
       fill: white; }
-    .navigation_items .vnav_logo .my_logo {
+    .alt_navigation_items .vnav_logo .my_logo {
       fill: #443E3D;
       height: auto;
       width: 80px;
       margin: 0;
+      margin-left: 20px;
       transition: all 0.2s ease-in-out; }
-  .navigation_items .nav_main {
+  .alt_navigation_items .nav_main {
     display: flex;
     justify-content: center;
     flex-direction: row;
     width: auto;
     height: 64px;
     background-color: lightblue; }
-    .navigation_items .nav_main .btnWork {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .btnWork .nav1 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .btnWork:hover {
-        background-color: white; }
-        .navigation_items .nav_main .btnWork:hover .nav1 {
-          color: #FFBC00; }
-    .navigation_items .nav_main .btnSocial {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .btnSocial .nav2 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .btnSocial:hover {
-        background-color: white; }
-        .navigation_items .nav_main .btnSocial:hover .nav2 {
-          color: #FFBC00; }
-    .navigation_items .nav_main .btnContact {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 200px;
-      background-color: #FFBC00;
-      transition: all 0.2s ease-in-out;
-      cursor: pointer; }
-      .navigation_items .nav_main .btnContact .nav3 {
-        transition: all 0.2s ease-in-out;
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        font-weight: bold; }
-      .navigation_items .nav_main .btnContact:hover {
-        background-color: white; }
-        .navigation_items .nav_main .btnContact:hover .nav3 {
-          color: #FFBC00; }
-  .navigation_items .nav_email {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    width: auto;
-    height: 64px; }
-    .navigation_items .nav_email .btnEmail {
+    .alt_navigation_items .nav_main .vbtnWork {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
       background-color: #FFBC00;
       transition: all 0.2s ease-in-out;
       cursor: pointer; }
-      .navigation_items .nav_email .btnEmail .nav4 {
-        align-self: flex-end;
+      .alt_navigation_items .nav_main .vbtnWork .nav1 {
         transition: all 0.2s ease-in-out;
         text-decoration: none;
-        color: #443E3D;
+        color: white;
         font-size: 18px;
         font-weight: bold; }
-      .navigation_items .nav_email .btnEmail:hover .nav4 {
-        color: white; }
+      .alt_navigation_items .nav_main .vbtnWork:hover {
+        background-color: white; }
+        .alt_navigation_items .nav_main .vbtnWork:hover .nav1 {
+          color: #FFBC00; }
+    .alt_navigation_items .nav_main .vbtnSocial {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .alt_navigation_items .nav_main .vbtnSocial .nav2 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .alt_navigation_items .nav_main .vbtnSocial:hover {
+        background-color: white; }
+        .alt_navigation_items .nav_main .vbtnSocial:hover .nav2 {
+          color: #FFBC00; }
+    .alt_navigation_items .nav_main .vbtnContact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .alt_navigation_items .nav_main .vbtnContact .nav3 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .alt_navigation_items .nav_main .vbtnContact:hover {
+        background-color: white; }
+        .alt_navigation_items .nav_main .vbtnContact:hover .nav3 {
+          color: #FFBC00; }
+    .alt_navigation_items .nav_main .vbtnEmail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #FFBC00;
+      transition: all 0.2s ease-in-out;
+      cursor: pointer; }
+      .alt_navigation_items .nav_main .vbtnEmail .nav4 {
+        transition: all 0.2s ease-in-out;
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold; }
+      .alt_navigation_items .nav_main .vbtnEmail:hover {
+        background-color: white; }
+        .alt_navigation_items .nav_main .vbtnEmail:hover .nav4 {
+          color: #FFBC00; }
 
 .work_bgContain {
   height: 200px;
@@ -4005,7 +4107,7 @@ html, body {
   align-items: center; }
 
 .push {
-  margin-top: 230px; }
+  margin-top: 0px; }
 
 .section {
   width: 980px; }
@@ -4182,7 +4284,6 @@ li {
   margin-bottom: 10px; }
 
 .intro_header {
-  position: fixed;
   top: 0;
   width: 100%; }
   .intro_header:hover .profile_pic {
@@ -4220,7 +4321,8 @@ li {
   box-sizing: border-box;
   transform: translateX(-70px);
   border-radius: 70px;
-  transition: all 0.3s ease-in-out; }
+  transition: all 0.3s ease-in-out;
+  z-index: 60; }
 
 .yellow {
   height: 192px;

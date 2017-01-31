@@ -1,0 +1,157 @@
+.alt_navigation_bar
+  height: 64px
+  background-color: $vibrantYellow
+  z-index: 50
+  position: fixed
+  top: 0
+  width: 100%
+  &:hover
+    .color_1
+      background-color: $myBlack
+    .color_2
+      background-color: $myRed
+    .color_3
+      background-color: $myTeal
+
+.tldr
+  height: 150px
+  width: 100px
+  //background-color: lightblue
+  position: absolute
+  top: 64px
+  left: calc(50% + 350px)
+  z-index: 0
+  cursor: pointer
+  &:hover
+    .tldr_logo
+      transform: translateY(-15px)
+    .cls-1
+      fill: $vibrantYellow
+
+.tldr_logo
+  transition: all 0.3s cubic-bezier(0.52, 0.01, 0, 1.49)
+  transform: translateY(-175px)
+  .cls-2
+    fill: $myBlack
+  .cls-1
+    fill: none
+
+.alt_navigation_items
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  text-align: center
+  margin: auto
+  height: 100%
+  max-width: 980px
+  background-color: $vibrantYellow
+
+  .vnav_logo
+    display: flex
+    justify-content: center
+    width: auto
+    height: 64px
+    cursor: pointer
+    //background-color: pink
+    &:hover
+      .my_logo
+        fill: $myWhite
+    .my_logo
+      fill: $myBlack
+      height: auto
+      width: 80px
+      margin: 0
+      margin-left: 20px
+      transition: all 0.2s ease-in-out
+
+  .nav_main
+    display: flex
+    justify-content: center
+    flex-direction: row
+    width: auto
+    height: 64px
+    //background-color: lightblue
+    .vbtnWork
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav1
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav1
+          color: $vibrantYellow
+
+    .vbtnSocial
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav2
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav2
+          color: $vibrantYellow
+
+    .vbtnContact
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav3
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav3
+          color: $vibrantYellow
+
+    .vbtnEmail
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: auto
+      padding-left: 20px
+      padding-right: 20px
+      background-color: $vibrantYellow
+      transition: all 0.2s ease-in-out
+      cursor: pointer
+      .nav4
+        transition: all 0.2s ease-in-out
+        text-decoration: none
+        color: white
+        font-size: 18px
+        font-weight: bold
+      &:hover
+        background-color: white
+        .nav4
+          color: $vibrantYellow

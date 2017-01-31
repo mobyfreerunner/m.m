@@ -1,0 +1,50 @@
+mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic)
+  .card(style="#{cardcolor}")
+    img.cardImg(src="../../assets/img/home/#{cardpic}")
+    .title
+      h2.cardCont_Title #{cardtitle}
+      p.cardCont_Body #{cardbody}
+      p.cardCont_CTA #{cardcta}
+
+#work_container
+  //- div.stripe
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+    
+  
+  div.home_title
+    div.highlighter
+    h2.header_2 Mubarak has worked on...
+    
+div.back_alt
+  .card_container
+    a(href="iquestion.html")
+      +cardMix('iQuestion,', 'an application that connects users to each other so that they will be able to exchange knowledge, as currency.', 'Read More', 'background-color: rgb(74, 80, 111)', 'home_iquestion.png')
+    
+    a(href="karmaq.html")
+      +cardMix('KarmaQ,', 'a conceptual system designed to change add value to the time spent waiting in lines by making it worth something.', 'Read More', 'background-color: black', 'MiniCard.png')
+    
+    a(href="shattered.html")
+      +cardMix('Shattered Communities,', 'a collaborative effort with a large team to alter the way people pass through the lobby of the Jockey Club Innovation Tower -Hadid.', 'Read More', 'background-color: white', 'Shattered-Communities.jpg')
+    
+    a(href="aurora.html")
+      +cardMix('Auroral Spectrum,', 'an immersive 3D visualisation that compares the most light polluted place on earth with the least.', 'Read More', 'background-color: white', 'Aurora.png')
+    
+    a(href="solotouch.html")
+      +cardMix('and the Solotouch,', 'an instrument combining an intuitive hardware controller with intelligent software to allow anyone play rocking guitar solos without any musical training.', 'Read More', 'background-color: white', 'solotouch_cover.jpg')
+    
+    .ghostCard
+
+div.work_cta
+  //a(href="allwork.html")
+  button.allWork more work coming soon

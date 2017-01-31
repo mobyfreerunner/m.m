@@ -1,0 +1,233 @@
+$dropshadow: drop-shadow(4px 4px 7px rgba(black, 0.5))
+
+html, body
+  max-width: 100%
+  overflow-x: hidden
+
+.body_home
+  background-color: $vibrantYellow2
+
+.landing
+  overflow: hidden
+
+.flex_landing
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 100vh
+  .centerWrap
+    display: flex
+    flex-direction: row
+    align-items: left
+    width: 700px
+    height: 408px
+    border-radius: 30px
+    box-shadow: 0 80px 80px -40px rgba(black, 0.5)
+    //background-color: black
+    flex-wrap: wrap
+    transition: all 0.3s ease-in-out
+    font-size: 50px
+    line-height: 102px
+    .card_logo
+      display: flex
+      justify-content: center
+      box-sizing: border-box
+      background-color: $myBlack
+      border: solid
+      border-color: $myBlack
+      border-width: 6px 3px 3px 6px
+      border-radius: 10px 0px 0px 0px
+      height: 25%
+      width: 35%
+      cursor: pointer
+      .my_logo
+        fill: $vibrantYellow2
+        transition: all 0.3s ease-in-out
+        max-width: 200px
+    .card_name
+      display: flex
+      justify-content: center
+      //padding: 20px
+      box-sizing: border-box
+      background-color: $vibrantYellow2
+      border: solid
+      border-color: $myBlack
+      border-width: 6px 6px 3px 3px
+      border-radius: 0px 10px 0px 0px
+      height: 25%
+      width: 65%
+      .logo_name
+        width: 400px
+        fill: $myBlack
+    .card_ixd
+      box-sizing: border-box
+      background-color: $vibrantYellow2
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 6px 3px 6px
+      height: 25%
+      width: 100%
+      color: $myBlack
+      text-align: center
+      font-family: Lora
+      cursor: default
+    .card_face
+      display: flex
+      justify-content: center
+      box-sizing: border-box
+      background-color: $myBlack
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 3px 3px 6px
+      height: 25%
+      width: 25%
+      cursor: pointer
+      .facebook_logo
+        fill: $vibrantYellow2
+        width: 70px
+        //transition: all 0.3s ease-in-out
+    .card_mail
+      display: flex
+      justify-content: center
+      box-sizing: border-box
+      background-color: $myBlack
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 3px 3px 3px
+      height: 25%
+      width: 25%
+      cursor: pointer
+      .mail_logo
+        fill: $vibrantYellow2
+        width: 70px
+        //transition: all 0.3s ease-in-out
+    .card_in
+      display: flex
+      justify-content: center
+      box-sizing: border-box
+      background-color: $myBlack
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 3px 3px 3px
+      height: 25%
+      width: 25%
+      cursor: pointer
+      .in_logo
+        fill: $vibrantYellow2
+        width: 70px
+        //transition: all 0.3s ease-in-out
+    .card_phone
+      display: flex
+      justify-content: center
+      box-sizing: border-box
+      background-color: $myBlack
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 6px 3px 3px
+      height: 25%
+      width: 25%
+      cursor: pointer
+      .phone_logo
+        fill: $vibrantYellow2
+        width: 70px
+        //transition: all 0.3s ease-in-out
+    .card_resume
+      box-sizing: border-box
+      background-color: $vibrantYellow2
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 3px 6px 6px
+      border-radius: 0px 0px 0px 10px
+      height: 25%
+      width: 50%
+      color: $myBlack
+      font-family: Lora
+      text-align: center
+      transition: all 0.3s ease-in-out
+      cursor: pointer
+    .card_about
+      box-sizing: border-box
+      background-color: $vibrantYellow2
+      border: solid
+      border-color: $myBlack
+      border-width: 3px 6px 6px 3px
+      border-radius: 0px 0px 10px 0px
+      height: 25%
+      width: 50%
+      color: $myBlack
+      font-family: Lora
+      text-align: center
+      transition: all 0.3s ease-in-out
+      cursor: pointer
+
+.enter_label
+  //background-color: lightgreen
+  text-align: center
+  width: 100%
+  height: 270px
+  position: absolute
+  top: calc(50% + 204px)
+  left: 50%
+  transform: translate(-50%)
+  overflow: hidden
+  cursor: pointer
+  z-index: 0
+  .enterLabel_logo
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55)
+    fill: $myBlack
+    transform: translateY(-80px)
+    max-width: 200px
+    filter: drop-shadow(4px 4px 20px rgba(black, 0.5))
+
+.landing
+  height: 100vh
+  //background-color: $vibrantYellow
+  // background-image: url(../../assets/img/bgs/landing-bg.gif)
+  // background-size: auto 120%
+  // background-position: top center
+  // background-attachment: fixed
+
+.my_arrow
+  height: 50px
+  width: 50px
+  margin: auto
+  fill: none
+  transition: all 0.2s ease-in-out
+
+.my_title
+  transform: scale(1)
+  transition: all 0.3s ease-in-out
+
+.my_title_svg
+  width: 940px
+  transform: scale(1)
+  transition: all 0.3s ease-in-out
+  fill: white
+
+.my_logo
+  height: auto
+  width: 250px
+  display: block
+  margin: auto
+  fill: white
+  //stroke: white
+  //stroke-width: 5px
+  //stroke-linejoin: round
+
+.land_overlay
+  position: relative
+  width: 100%
+  height: 100%
+  z-index: 0
+  //background-color: rgba(0, 0, 0, 0.5)
+
+.land_overlay.fadeLoad
+  animation: bgFade 800ms linear forwards
+
+@keyframes bgFade
+  0%
+    background-color: rgba(black, 0)
+  100%
+    background-color: rgba(black, 0.6)

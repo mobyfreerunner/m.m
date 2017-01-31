@@ -1,0 +1,130 @@
+.intro_header
+  top: 0
+  width: 100%
+  &:hover
+    .profile_pic
+      border-radius: 20px
+      .color_1
+        background-color: $myBlack
+      .color_2
+        background-color: $myRed
+      .color_3
+        background-color: $myTeal
+
+    .my_alt_logo
+      fill: white
+
+  .my_alt_logo
+    width: 140px
+    fill: $myBlack
+    position: absolute
+    margin-top: 20px
+    left: 50%
+    transform: translateX(-50%)
+    transition: all 0.3s ease-in-out
+
+.intro_logo
+  cursor: pointer
+
+
+.profile_pic
+  cursor: pointer
+  background-image: url(../../assets/img/me_intro_small.jpg)
+  height: 140px
+  width: 140px
+  position: absolute
+  left: 50%
+  top: 80px
+  border: solid 8px
+  border-color: $vibrantYellow
+  box-sizing: border-box
+  transform: translateX(-70px)
+  border-radius: 70px
+  transition: all 0.3s ease-in-out
+  z-index: 60
+
+.yellow
+  height: 192px
+  background-color: $vibrantYellow
+
+.stripe
+  width: 100%
+  height: 8px
+  display: flex
+  flex-direction: row
+  z-index: 3
+
+.color_3
+  flex-grow: 1
+  min-width: 160px
+  height: 8px
+  background-color: $myBlack
+  transition: all 0.3s ease-in-out
+
+.color_1
+  flex-grow: 1
+  min-width: 160px
+  height: 8px
+  background-color: $myRed
+  transition: all 0.3s ease-in-out
+
+.color_2
+  flex-grow: 1
+  min-width: 160px
+  height: 8px
+  background-color: $myTeal
+  transition: all 0.3s ease-in-out
+
+.intro_contact
+  display: flex
+  flex-direction: row
+  margin-top: 30px
+  margin-bottom: 200px
+  .contactFacebook
+    &:hover
+      .facebook_logo
+        fill: $vibrantYellow2
+        transform: scale(1.2)
+    .facebook_logo
+      transition: all 0.3s ease-in-out
+      margin: 15px
+      width: 50px
+      fill: silver
+
+  .contactEmail
+    &:hover
+      .mail_logo
+        fill: $vibrantYellow2
+        transform: scale(1.2)
+    .mail_logo
+      transition: all 0.3s ease-in-out
+      margin: 15px
+      width: 50px
+      fill: silver
+
+  .contactIn
+    &:hover
+      .in_logo
+        fill: $vibrantYellow2
+        transform: scale(1.2)
+    .in_logo
+      transition: all 0.3s ease-in-out
+      margin: 15px
+      width: 50px
+      fill: silver
+
+  .contactPhone
+    &:hover
+      .phone_logo
+        fill: $vibrantYellow2
+        transform: scale(1.2)
+    .phone_logo
+      transition: all 0.3s ease-in-out
+      margin: 15px
+      width: 50px
+      fill: silver
+
+.scm_video
+  margin-top: 20px
+  width: 100%
+  height: 550px
