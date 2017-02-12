@@ -1,11 +1,12 @@
-mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic)
+mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic, wip)
   .card(style="#{cardcolor}")
     img.cardImg(src="../../assets/img/home/#{cardpic}")
     .title
       h2.cardCont_Title #{cardtitle}
       p.cardCont_Body #{cardbody}
       p.cardCont_CTA #{cardcta}
-
+    img.wip(src="../../assets/img/icons/#{wip}")
+  
 #work_container
   //- div.stripe
   //-   div.color_3
@@ -28,23 +29,40 @@ mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic)
     
 div.back_alt
   .card_container
+    
     a(href="iquestion.html")
-      +cardMix('iQuestion,', 'an application that connects users to each other so that they will be able to exchange knowledge, as currency.', 'Read More', 'background-color: rgb(74, 80, 111)', 'home_iquestion.png')
+      +cardMix('iQuestion,', 'an application that connects users to each other so that they will be able to exchange knowledge, as currency.', 'Click for more', 'background-color: rgb(74, 80, 111)', 'home_iquestion.png', 'ghost.png')
+      
     
     a(href="karmaq.html")
-      +cardMix('KarmaQ,', 'a conceptual system designed to change add value to the time spent waiting in lines by making it worth something.', 'Read More', 'background-color: black', 'MiniCard.png')
+      +cardMix('KarmaQ,', 'a conceptual system designed to change add value to the time spent waiting in lines by making it worth something.', 'Click for more', 'background-color: black', 'MiniCard.png', 'ghost.png')
+      
+    
+    a(href="https://www.behance.net/gallery/48171623/GreenCo" target="_blank")
+      .card(style="background-color: #88B87F")
+        img.cardImg(src="../../assets/img/home/greenco.png")
+        .title
+          h2.cardCont_Title GreenCo.
+          p.cardCont_Body A proposal for changing the common perception of recyclables as something that is unwanted to something that is of value.
+          .cardMiniLogo
+            include ../../assets/img/svgs/be.svg
     
     a(href="shattered.html")
-      +cardMix('Shattered Communities,', 'a collaborative effort with a large team to alter the way people pass through the lobby of the Jockey Club Innovation Tower -Hadid.', 'Read More', 'background-color: white', 'Shattered-Communities.jpg')
+      +cardMix('Shattered Communities,', 'a collaborative effort with a large team to alter the way people pass through the lobby of the Jockey Club Innovation Tower -Hadid.', 'Click for more', 'background-color: white', 'Shattered-Communities.jpg', 'ghost.png')
     
     a(href="aurora.html")
-      +cardMix('Auroral Spectrum,', 'an immersive 3D visualisation that compares the most light polluted place on earth with the least.', 'Read More', 'background-color: white', 'Aurora.png')
+      +cardMix('Auroral Spectrum,', 'an immersive 3D visualisation that compares the most light polluted place on earth with the least.', 'Click for more', 'background-color: white', 'Aurora.png', 'ghost.png')
     
     a(href="solotouch.html")
-      +cardMix('and the Solotouch,', 'an instrument combining an intuitive hardware controller with intelligent software to allow anyone play rocking guitar solos without any musical training.', 'Read More', 'background-color: white', 'solotouch_cover.jpg')
+      +cardMix('and the Solotouch,', 'an instrument combining an intuitive hardware controller with intelligent software to allow anyone play rocking guitar solos without any musical training.', 'Click for more', 'background-color: white', 'solotouch_cover.jpg', 'ghost.png')
+    
+    a(href="https://goo.gl/forms/KdIjWQ7fZdb8m6aL2" target="_blank")
+      +cardMix('Sharing Anxiety', 'Users get nervous when handing their phones to other people, but we inherently love to "show-and-tell". Can I design a solution to address this pain point? Watch this space to find out.', 'Click for survey', 'background-color: #B94745', 'anxiety.JPG', 'wip.png')
+    
+    .ghostCard
     
     .ghostCard
 
-div.work_cta
+//div.work_cta
   //a(href="allwork.html")
-  button.allWork more work coming soon
+  //button.allWork more work coming soon

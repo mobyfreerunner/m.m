@@ -3,6 +3,9 @@
 @media only screen and (min-width : 667px)
   .flex_landing
     .centerWrap
+      &:hover
+        transform: scale(1.05)
+        box-shadow: $myHoverActive
       .card_logo
         &:hover
           background-color: $vibrantYellow2
@@ -45,9 +48,8 @@
 
     .enter_label
       &:hover
-        .enterLabel_logo
-          transform: translateY(-15px)
-          animation: none
+        .my_arrow
+          fill: white
 
   .navigation_bar
     .navigation_items
@@ -97,6 +99,16 @@
           fill: white
 
 
+  .card
+    &:hover
+      transform: scale(1.05)
+      box-shadow: $myHoverActive
+      .facebook_logo, .mail_logo, .in_logo, .phone_logo
+        fill: $myWhite
+      .title
+        opacity: 1
+      .soon
+        opacity: 1
 //Landscape
 
 
@@ -121,37 +133,88 @@
     display: none
 
   //Landing
-  .flex_landing
-    .centerWrap
-      transform: translateY(-80px)
-      max-width: 370px
-      max-height: 216px
-      font-size: 12px
-      .my_logo
-        width: 80px
+  .landing
+    .land_overlay
+      .flex_landing
+        .centerWrap
+          //transform: translateY(-80px)
+          transform: translateY(-30px)
+          width: 300px
+          height: 400px
+          font-size: 12px
+          line-height: 50px
 
-      .logo_name
-        max-width: 200px
+          .card_logo, .card_name, .card_ixd, .card_face, .card_mail, .card_in, .card_phone, .card_resume, .card_about, .enter_label
 
-      .card_ixd
-        font-size: 30px
-        line-height: 48px
+          .card_logo
+            width: 100%
+            height: 20%
+            border-width: 4px 4px 2px 4px
+            border-radius: 10px 10px 0px 0px
 
-      .card_resume
-        font-size: 30px
-        line-height: 40px
+          .card_name
+            width: 100%
+            height: 20%
+            border-width: 2px 4px 2px 4px
+            border-radius: 0px 0px 0px 0px
 
-      .card_about
-        font-size: 30px
-        line-height: 40px
+          .my_logo
+            width: 130px
 
-      .enter_label
-        top: calc(50% + 98px)
-        height: 304px
-        width: 370px
-        .enterLabel_logo
-          max-width: 100px
-          transform: translateY(-5px)
+          .logo_name
+            max-width: 250px
+
+          .card_ixd
+            height: 20%
+            border-width: 2px 4px 2px 4px
+            border-radius: 0px 0px 0px 0px
+            font-size: 28px
+            line-height: 80px
+
+          .card_face
+            height: 20%
+            border-width: 2px 2px 2px 4px
+            .facebook_logo
+              width: 40px
+
+          .card_mail
+            height: 20%
+            border-width: 2px 2px 2px 2px
+            .mail_logo
+              width: 40px
+
+          .card_in
+            height: 20%
+            border-width: 2px 2px 2px 2px
+            .in_logo
+              width: 40px
+
+          .card_phone
+            height: 20%
+            border-width: 2px 4px 2px 2px
+            .phone_logo
+              width: 40px
+
+          .card_resume
+            height: 20%
+            font-size: 28px
+            line-height: 80px
+            border-width: 2px 2px 4px 4px
+
+          .card_about
+            height: 20%
+            font-size: 28px
+            line-height: 80px
+            border-width: 2px 4px 4px 2px
+
+        .enter_label
+          width: 100%
+          height: 130px
+          //display: none
+          .my_arrow
+            top: 0
+            width: 50px
+            margin: 0
 
   .navigation_bar
     width: auto
@@ -396,3 +459,9 @@
 
   .responsiveCard
     display: flex
+
+  #work_container, #social_container, #contact_container
+    .home_title
+      padding: 20px
+      .header_2
+        font-size: 24px

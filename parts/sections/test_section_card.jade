@@ -1,0 +1,47 @@
+mixin testcardMix(cardcolor)
+  .card(style="#{cardcolor}")
+  
+#work_container
+  //- div.stripe
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+  //-   div.color_3
+  //-   div.color_1
+  //-   div.color_2
+    
+  
+  div.home_title
+    div.highlighter
+    h2.header_2 This is a test template for the filter...
+    
+div.back_alt
+  div.filterBox
+    ul.filterStyle
+      li.listStyle 
+        p.header_2.filterAll All
+      li.listStyle
+        h2.header_2 |
+      li.listStyle
+        p.header_2.filterArt Art
+      li.listStyle
+        h2.header_2 |
+      li.listStyle
+        p.header_2.filterDes Design
+        
+  .card_container
+    +testcardMix('background-color: #B94745')
+    +testcardMix('background-color: #579F9A')
+    +testcardMix('background-color: #FEC845')
+    
+    //.ghostCard
+
+div.work_cta
+  //a(href="allwork.html")
+  button.allWork more work coming soon

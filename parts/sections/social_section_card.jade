@@ -1,3 +1,13 @@
+mixin cardFeed(cardtitle, cardbody, cardpic, logo, link)
+  a(href="#{link}" target="_blank")
+    .card
+      img.cardImg(src="#{cardpic}")
+      .title
+        h2.cardCont_Title #{cardtitle}
+        p.cardCont_Body #{cardbody}
+        .cardMiniLogo
+          img.cardIcon(src="../../assets/img/icons/#{logo}")
+
 #social_container
   //- div.stripe
   //-   div.color_3
@@ -34,8 +44,9 @@ div.back_alt
     a(href="https://www.instagram.com/mobyfreerunner/" target="_blank")
       .S_card.cflex
         include ../../assets/img/svgs/insta.svg
+        
+    +cardFeed(' ', 'The obligatory TED Logo photo. Had an incredible time at #tedxhk this year, and of course met a ton of amazing people. #awesome #ted #hongkong #hkig #convention', 'https://scontent.cdninstagram.com/t51.2885-15/e35/15275705_630898543757425_3544866002376327168_n.jpg?ig_cache_key=MTM5NzYzNjc3NjQ5NTM3ODA4Ng%3D%3D.2', 'Instagram-logo.png', 'https://www.instagram.com/p/BNlZz5EB26m/?taken-by=mobyfreerunner')
     
-    .ghostCard
+    +cardFeed(' ', '#colours', 'https://scontent.cdninstagram.com/t51.2885-15/e35/14350825_1764330157188771_48090581_n.jpg?ig_cache_key=MTM0MzM2ODcyNjQzNDU0Njk3NQ%3D%3D.2', 'Instagram-logo.png', 'https://www.instagram.com/p/BKkmr09gAUf/?taken-by=mobyfreerunner')
     
-    .ghostCard
   

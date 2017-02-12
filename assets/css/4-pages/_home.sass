@@ -1,9 +1,30 @@
 
 .back_alt
   width: 100%
+  height: auto
   background-color: $myWhite
   display: flex
   justify-content: center
+  align-items: center
+
+.filterBox
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+.filterStyle
+  list-style: none
+  display: block
+  .listStyle
+    float: left
+    margin: 10px
+    .filterAll
+    .header_2
+      margin: 0
+
+.filterActive
+  color: $vibrantYellow2
 
 .back
   width: 100%
@@ -26,6 +47,11 @@
   position: absolute
   z-index: 1
   //border-radius: 20px
+
+.cardIcon
+  bottom: 0px
+  width: 60px
+
 
 .container
   display: flex
@@ -181,6 +207,16 @@
   justify-content: center
   padding-top: 0px
   padding-bottom: 0px
+  position: relative
+
+.wip
+  position: absolute
+  width: 100px
+  bottom: 0
+  left: 0
+  z-index: 10
+  margin-left: -5px
+  margin-top: -5px
 
 .home_wide
   width: 100%
@@ -198,16 +234,6 @@
   margin: 10px 10px
   position: relative
   cursor: pointer
-  &:hover
-    transform: scale(1.05)
-    box-shadow: $myHoverActive
-    .facebook_logo, .mail_logo, .in_logo, .phone_logo
-      fill: $myWhite
-    .title
-      opacity: 1
-
-    .soon
-      opacity: 1
 
 .soon
   font-size: 32px
@@ -268,6 +294,10 @@
   background: rgba(255, 255, 255, .9)
   transition: all 0.3s ease-out
   z-index: 4
+  .cardMiniLogo
+    .be_logo
+      width: 30px
+      fill: #005CFF
 
 .ghostCard
   width: 300px

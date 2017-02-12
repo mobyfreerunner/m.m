@@ -301,233 +301,233 @@
 		"iS": 3278,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/color_bg.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/funkyaqua-bg.gif": {
 		"ft": 4194304,
-		"iS": 0,
+		"iS": 67024,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/funkyaqua-bg.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/instagram_gradient.jpg": {
 		"ft": 16384,
-		"iS": 7876493,
+		"iS": 149668,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/instagram_gradient.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/bgs\/ios-landing-bg.gif": {
 		"ft": 4194304,
-		"iS": 6590,
+		"iS": 25000,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/ios-landing-bg.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/landing-bg.gif": {
 		"ft": 4194304,
-		"iS": 0,
+		"iS": 37736,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/landing-bg.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/midnight.gif": {
 		"ft": 4194304,
 		"iS": 679647,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/midnight.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/nature.gif": {
 		"ft": 4194304,
 		"iS": 733893,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/nature.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/noctornal.gif": {
 		"ft": 4194304,
-		"iS": 35783,
+		"iS": 42340,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/noctornal.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/pixelnight-bg.gif": {
 		"ft": 4194304,
 		"iS": 32931,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/pixelnight-bg.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/bgs\/t_landing-bg.gif": {
 		"ft": 4194304,
 		"iS": 12656,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/bgs\/t_landing-bg.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
-	"\/assets\/img\/dp_aurora\/Anantika.jpg": {
+	"\/assets\/img\/dp_aurora\/anantika.jpg": {
 		"ft": 16384,
-		"iS": 94261,
+		"iS": 82637,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/anantika.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_aurora\/aurora.mp4": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/aurora.mp4",
-		"oF": 1
+		"oF": 0
 		},
 	"\/assets\/img\/dp_aurora\/AuroralSpectrumStatement.pdf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/AuroralSpectrumStatement.pdf",
-		"oF": 1
+		"oF": 0
 		},
 	"\/assets\/img\/dp_aurora\/full.mp4": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/full.mp4",
-		"oF": 1
+		"oF": 0
 		},
 	"\/assets\/img\/dp_aurora\/Immersion.jpg": {
 		"ft": 16384,
 		"iS": 151707,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/Immersion.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_aurora\/Immersion2Glow.jpg": {
 		"ft": 16384,
 		"iS": 245706,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/Immersion2Glow.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_aurora\/paper.jpg": {
 		"ft": 16384,
 		"iS": 383838,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/paper.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_aurora\/wire.png": {
 		"ft": 32768,
 		"iS": 2019319,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_aurora\/wire.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/brainstorm.jpg": {
 		"ft": 16384,
 		"iS": 34341,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/brainstorm.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Interview_1.jpg": {
 		"ft": 16384,
 		"iS": 28925,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Interview_1.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Interview_2.jpg": {
 		"ft": 16384,
 		"iS": 27386,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Interview_2.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Interview_3.jpg": {
 		"ft": 16384,
 		"iS": 35893,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Interview_3.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iPhone_Mock.jpg": {
 		"ft": 16384,
 		"iS": 92690,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iPhone_Mock.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_detailedjourney.jpg": {
 		"ft": 16384,
 		"iS": 84733,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iquestion_detailedjourney.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_hero.jpg": {
 		"ft": 16384,
 		"iS": 342933,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iquestion_hero.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iQuestion_Poster.jpg": {
 		"ft": 16384,
 		"iS": 119093,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iQuestion_Poster.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_WB.jpg": {
 		"ft": 16384,
 		"iS": 52030,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iquestion_WB.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iquestion_WB_2.jpg": {
 		"ft": 16384,
 		"iS": 44926,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iquestion_WB_2.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iteration.jpg": {
 		"ft": 16384,
 		"iS": 28522,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iteration.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/iteration2.png": {
 		"ft": 32768,
 		"iS": 157622,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/iteration2.png",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/logos_font.png": {
@@ -535,7 +535,7 @@
 		"iS": 123577,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/logos_font.png",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/ResearchFindings.png": {
@@ -543,7 +543,7 @@
 		"iS": 278796,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/ResearchFindings.png",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/screens.jpg": {
@@ -551,445 +551,445 @@
 		"iS": 70448,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/screens.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/siri.jpg": {
 		"ft": 16384,
 		"iS": 57183,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/siri.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/smartass.jpg": {
 		"ft": 16384,
 		"iS": 48327,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/smartass.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Survey_1.jpg": {
 		"ft": 16384,
 		"iS": 32277,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Survey_1.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Survey_2.jpg": {
 		"ft": 16384,
 		"iS": 37470,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Survey_2.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_iques\/Survey_3.jpg": {
 		"ft": 16384,
 		"iS": 34896,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_iques\/Survey_3.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/bp_1.jpg": {
 		"ft": 16384,
 		"iS": 66245,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/bp_1.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/bp_2.jpg": {
 		"ft": 16384,
 		"iS": 64830,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/bp_2.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/bp_3.jpg": {
 		"ft": 16384,
 		"iS": 51003,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/bp_3.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/bp_4.jpg": {
 		"ft": 16384,
 		"iS": 56801,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/bp_4.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/commercial_1.jpg": {
 		"ft": 16384,
-		"iS": 391105,
+		"iS": 72315,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/commercial_1.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/experiment.jpg": {
 		"ft": 16384,
 		"iS": 125374,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/experiment.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/k_1.jpg": {
 		"ft": 16384,
-		"iS": 129223,
+		"iS": 22390,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/k_1.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/k_2.jpg": {
 		"ft": 16384,
-		"iS": 97827,
+		"iS": 18519,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/k_2.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/k_3.jpg": {
 		"ft": 16384,
-		"iS": 102416,
+		"iS": 19196,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/k_3.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/k_4.jpg": {
 		"ft": 16384,
-		"iS": 100672,
+		"iS": 19735,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/k_4.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
-	"\/assets\/img\/dp_karma\/K_5.jpg": {
+	"\/assets\/img\/dp_karma\/k_5.jpg": {
 		"ft": 16384,
-		"iS": 112321,
+		"iS": 34881,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/k_5.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/karmaCard.jpg": {
 		"ft": 16384,
-		"iS": 137958,
+		"iS": 27371,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/karmaCard.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/lines.jpg": {
 		"ft": 16384,
-		"iS": 429069,
+		"iS": 96661,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/lines.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/sign.jpg": {
 		"ft": 16384,
-		"iS": 365599,
+		"iS": 63416,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/sign.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/storyboard.jpg": {
 		"ft": 16384,
 		"iS": 56845,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/storyboard.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_karma\/swipe.jpg": {
 		"ft": 16384,
-		"iS": 425379,
+		"iS": 87649,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_karma\/swipe.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/10_Pattern.jpeg": {
 		"ft": 16384,
 		"iS": 208726,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/10_Pattern.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/11_String.jpg": {
 		"ft": 16384,
 		"iS": 85699,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/11_String.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/13_MeTechnical.jpeg": {
 		"ft": 16384,
 		"iS": 290166,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/13_MeTechnical.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/15_DailyMeeting.jpeg": {
 		"ft": 16384,
 		"iS": 516738,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/15_DailyMeeting.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/17_Technical.jpeg": {
 		"ft": 16384,
 		"iS": 254505,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/17_Technical.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/18_TechnicalWall.jpeg": {
 		"ft": 16384,
-		"iS": 338736,
+		"iS": 330404,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/18_TechnicalWall.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/19_Panels.jpeg": {
 		"ft": 16384,
-		"iS": 366962,
+		"iS": 310448,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/19_Panels.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/1_geometric.jpeg": {
 		"ft": 16384,
 		"iS": 117949,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/1_geometric.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/20_SlidingWall.jpeg": {
 		"ft": 16384,
 		"iS": 230198,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/20_SlidingWall.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/23_WallWheel.jpeg": {
 		"ft": 16384,
-		"iS": 332554,
+		"iS": 292193,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/23_WallWheel.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/24_WallWheel.jpeg": {
 		"ft": 16384,
 		"iS": 266805,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/24_WallWheel.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/25_WallBuilding.jpeg": {
 		"ft": 16384,
 		"iS": 355354,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/25_WallBuilding.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/26_Laser.jpeg": {
 		"ft": 16384,
 		"iS": 65747,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/26_Laser.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/28_Motor.jpeg": {
 		"ft": 16384,
 		"iS": 87569,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/28_Motor.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/29_Lights.jpeg": {
 		"ft": 16384,
-		"iS": 93334,
+		"iS": 89307,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/29_Lights.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/2_strings.jpeg": {
 		"ft": 16384,
 		"iS": 288525,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/2_strings.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/2_strings_s.jpg": {
 		"ft": 16384,
 		"iS": 299317,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/2_strings_s.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/31_BetterModel.jpeg": {
 		"ft": 16384,
 		"iS": 158051,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/31_BetterModel.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/34_Wood.jpeg": {
 		"ft": 16384,
-		"iS": 290288,
+		"iS": 161457,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/34_Wood.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/35_Hammer.jpeg": {
 		"ft": 16384,
 		"iS": 109552,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/35_Hammer.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/36_FullWall.jpeg": {
 		"ft": 16384,
 		"iS": 584153,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/36_FullWall.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/38_WallBracketInstallation.jpeg": {
 		"ft": 16384,
 		"iS": 41130,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/38_WallBracketInstallation.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/39_Sensors.jpeg": {
 		"ft": 16384,
 		"iS": 106180,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/39_Sensors.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/3_Planning.jpg": {
 		"ft": 16384,
 		"iS": 53225,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/3_Planning.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/41_WallMotorCode.jpeg": {
 		"ft": 16384,
 		"iS": 107254,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/41_WallMotorCode.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/44_WallBounce.mp4": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/44_WallBounce.mp4",
-		"oF": 1
+		"oF": 0
 		},
 	"\/assets\/img\/dp_shattered\/47_String.jpeg": {
 		"ft": 16384,
 		"iS": 70328,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/47_String.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/49_PortableLift.jpeg": {
 		"ft": 16384,
 		"iS": 163338,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/49_PortableLift.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/50_Wall.jpeg": {
 		"ft": 16384,
 		"iS": 97693,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/50_Wall.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/51_Wall.jpeg": {
 		"ft": 16384,
 		"iS": 94669,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/51_Wall.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/53_StringIsUp.jpeg": {
 		"ft": 16384,
 		"iS": 99303,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/53_StringIsUp.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/55_Coding.jpeg": {
 		"ft": 16384,
-		"iS": 108383,
+		"iS": 96905,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/55_Coding.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/57_COnstruction.jpeg": {
 		"ft": 16384,
 		"iS": 324109,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/57_COnstruction.jpeg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/57_COnstruction.jpg": {
 		"ft": 16384,
 		"iS": 303585,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/57_COnstruction.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/5_Strings.jpg": {
@@ -997,39 +997,39 @@
 		"iS": 167985,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/5_Strings.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/7_modelbuilding.jpg": {
 		"ft": 16384,
 		"iS": 165347,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/7_modelbuilding.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/8_modelbuilding.jpg": {
 		"ft": 16384,
 		"iS": 100486,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/8_modelbuilding.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_shattered\/lobby.jpg": {
 		"ft": 16384,
 		"iS": 697722,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_shattered\/lobby.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/carnival.jpg": {
 		"ft": 16384,
 		"iS": 42075,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/carnival.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/demo.jpg": {
@@ -1037,7 +1037,7 @@
 		"iS": 37192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/demo.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/flex.jpg": {
@@ -1045,7 +1045,7 @@
 		"iS": 24434,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/flex.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/flexaction.gif": {
@@ -1053,15 +1053,15 @@
 		"iS": 15792,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/flexaction.gif",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/gear.jpg": {
 		"ft": 16384,
 		"iS": 19714,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/gear.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/gear2.jpg": {
@@ -1069,7 +1069,7 @@
 		"iS": 17657,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/gear2.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/lume.jpg": {
@@ -1077,7 +1077,7 @@
 		"iS": 26792,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/lume.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/magazine.jpg": {
@@ -1085,7 +1085,7 @@
 		"iS": 38889,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/magazine.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/model.jpg": {
@@ -1093,7 +1093,7 @@
 		"iS": 18579,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/model.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/noscore.png": {
@@ -1101,23 +1101,23 @@
 		"iS": 24030,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/noscore.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/paper.png": {
 		"ft": 32768,
 		"iS": 24202,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/paper.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/prototype1.jpg": {
 		"ft": 16384,
 		"iS": 22809,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/prototype1.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/prototype2.jpg": {
@@ -1125,7 +1125,7 @@
 		"iS": 41044,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/prototype2.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/rod.jpg": {
@@ -1133,7 +1133,7 @@
 		"iS": 26651,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/rod.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/rodthrough.jpg": {
@@ -1141,7 +1141,7 @@
 		"iS": 19495,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/rodthrough.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/sketch.jpg": {
@@ -1149,7 +1149,7 @@
 		"iS": 22376,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/sketch.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/solo.jpg": {
@@ -1157,38 +1157,62 @@
 		"iS": 13416,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/solo.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/SoloTouch-HD.mp4": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/SoloTouch-HD.mp4",
-		"oF": 1
+		"oF": 0
 		},
 	"\/assets\/img\/dp_solotouch\/solotouch_cover.jpg": {
 		"ft": 16384,
 		"iS": 25869,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/solotouch_cover.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/dp_solotouch\/touchosc.png": {
 		"ft": 32768,
 		"iS": 4047,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/dp_solotouch\/touchosc.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/anxiety.jpeg": {
+		"ft": 16384,
+		"iS": 327118,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/anxiety.jpeg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/home\/Aurora.png": {
 		"ft": 32768,
 		"iS": 181946,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/Aurora.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/ghost.png": {
+		"ft": 32768,
+		"iS": 95,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/ghost.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/greenco.png": {
+		"ft": 32768,
+		"iS": 153803,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/greenco.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/home\/home_iquestion.png": {
 		"ft": 32768,
@@ -1203,8 +1227,8 @@
 		"iS": 121167,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/home_karma.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/home\/MiniCard.png": {
 		"ft": 32768,
@@ -1219,7 +1243,7 @@
 		"iS": 58831,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/Shattered-Communities.jpg",
-		"oF": 1,
+		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/img\/home\/solotouch_cover.jpg": {
@@ -1230,79 +1254,159 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/icons\/adobe_pf.jpg": {
+		"ft": 16384,
+		"iS": 12302,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/adobe_pf.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/ghost.png": {
+		"ft": 32768,
+		"iS": 95,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/ghost.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/Instagram-logo.png": {
+		"ft": 32768,
+		"iS": 26527,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/Instagram-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/wip.png": {
+		"ft": 32768,
+		"iS": 2775,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/wip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/wip_1.png": {
+		"ft": 32768,
+		"iS": 1565,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/wip_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/wip_2.png": {
+		"ft": 32768,
+		"iS": 1497,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/wip_2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/wip_4.png": {
+		"ft": 32768,
+		"iS": 1945,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/wip_4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/wip_5.png": {
+		"ft": 32768,
+		"iS": 2817,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/wip_5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 5878,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/logo_roll.png": {
+		"ft": 32768,
+		"iS": 6340,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/logo_roll.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/me_footer.jpg": {
 		"ft": 16384,
 		"iS": 338446,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/me_footer.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/me_intro_small.jpg": {
 		"ft": 16384,
 		"iS": 26790,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/me_intro_small.jpg",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/svgs\/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/arrow.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/be.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/be.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/c_face.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/c_face.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/c_ind.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/c_ind.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/c_mail.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/c_mail.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/c_phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/c_phone.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1311,8 +1415,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/dribbble.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1321,8 +1425,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/enter_label.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1331,8 +1435,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/enter_label_1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1341,18 +1445,18 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/facebook.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/insta.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/insta.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1361,8 +1465,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/logo.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1371,28 +1475,28 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/mail.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/medium.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/medium.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/mm.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/mm.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1401,18 +1505,18 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/mm2.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/mubarakmarafa.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/mubarakmarafa.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1421,28 +1525,28 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/phone.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/play.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/play.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/pointer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/pointer.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1451,8 +1555,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/q_1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1461,8 +1565,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/q_2.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1471,8 +1575,8 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/title.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
@@ -1481,36 +1585,36 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/svgs\/tldr.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/svgs\/tldr_1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/assets\/img\/svgs\/tldr_1.svg",
-		"oF": 1,
-		"opt": 1,
+		"oF": 0,
+		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
 	"\/assets\/img\/title.png": {
 		"ft": 32768,
-		"iS": 66972,
+		"iS": 10614,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/title.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/img\/title_1.png": {
 		"ft": 32768,
 		"iS": 12253,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/title_1.png",
-		"oF": 1,
-		"opt": 1
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
@@ -1657,12 +1761,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/favicon.ico",
-		"oF": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
 	"\/index.jade": {
@@ -1851,6 +1949,14 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/parts\/sections\/test_section_card.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/parts\/sections\/test_section_card.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/parts\/sections\/work_section.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -1919,7 +2025,7 @@
 	"displayValue": "mubarakmarafa.com",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 507555573
+	"lastBuiltDate": 508228536
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
