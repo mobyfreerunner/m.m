@@ -117,3 +117,23 @@ $( document ).ready(function() {
   // });
 
 });
+
+jQuery.fn.extend({
+    toggleText: function (a, b){
+        var isClicked = false;
+        var that = this;
+        var x = document.getElementsByClassName('moreWork');
+        this.click(function (){
+            if (isClicked) {
+            	that.text(a); isClicked = false;
+              $('.moreWork').css('display', 'none');
+            } else {
+            	that.text(b); isClicked = true;
+              $('.moreWork').css('display', 'block');
+            }
+        });
+        return this;
+    }
+});
+
+$('.allWork').toggleText("More", "Less");

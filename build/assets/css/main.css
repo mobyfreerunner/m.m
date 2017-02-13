@@ -3070,15 +3070,18 @@ hr {
     background-color: #FEC845;
     border-radius: 0px;
     border: solid #FEC845;
-    cursor: default;
+    cursor: pointer;
     box-sizing: border-box;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-out; }
     .work_cta .allWork:hover {
       color: #443E3D;
       border: solid #FFBC00;
       background-color: #FFBC00;
       outline: 0; }
+
+.moreWork {
+  display: none; }
 
 .card_container {
   width: 980px;
@@ -3108,7 +3111,7 @@ hr {
   padding: 40px;
   width: 300px;
   height: 300px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: all 0.3s ease-out;
   margin: 10px 10px;
@@ -3139,7 +3142,7 @@ hr {
   padding: 40px;
   width: 300px;
   height: 300px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: all 0.3s ease-out;
   margin: 10px 10px;
@@ -3148,7 +3151,7 @@ hr {
   background-size: cover; }
   .S_card:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
     .S_card:hover .title {
       opacity: 1; }
 
@@ -3353,8 +3356,8 @@ hr {
 /*iPhone 6 Responsive*/
 @media only screen and (min-width: 667px) {
   .flex_landing .centerWrap:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
   .flex_landing .centerWrap .card_logo:hover {
     background-color: #FEC845; }
     .flex_landing .centerWrap .card_logo:hover .my_logo {
@@ -3402,8 +3405,8 @@ hr {
   .contact_me .contactIn:hover .in_logo {
     fill: white; }
   .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); }
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
     .card:hover .facebook_logo, .card:hover .mail_logo, .card:hover .in_logo, .card:hover .phone_logo {
       fill: #EFEFEF; }
     .card:hover .title {
@@ -3692,7 +3695,7 @@ html, body {
   background-color: #FFBC00; }
 
 .landing {
-  overflow: hidden; }
+  overflow: hiddentrans; }
 
 .flex_landing {
   display: flex;
@@ -3708,7 +3711,7 @@ html, body {
     width: 700px;
     height: 408px;
     border-radius: 30px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #443E3D;
     flex-wrap: wrap;
     transition: all 0.3s ease-out;
