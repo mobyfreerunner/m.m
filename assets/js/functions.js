@@ -22,13 +22,13 @@ $( document ).ready(function() {
 
   $(".enter_label").click(function() {
       $('html,body').animate({
-          scrollTop: $("#work_container").offset().top + (-71)
+          scrollTop: $("#pseudo").offset().top + (-71)
         },800, 'swing');
   });
 
   $(".card_logo").click(function() {
       $('html,body').animate({
-          scrollTop: $("#work_container").offset().top + (-71)
+          scrollTop: $("#pseudo").offset().top + (-71)
         },800, 'swing');
   });
 
@@ -136,4 +136,4 @@ jQuery.fn.extend({
     }
 });
 
-$('.allWork').toggleText("More", "Less");
+$('.allWork').toggleText("more", "less");

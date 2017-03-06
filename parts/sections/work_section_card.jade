@@ -7,7 +7,11 @@ mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic, wip)
       p.cardCont_CTA #{cardcta}
     img.wip(src="../../assets/img/icons/#{wip}")
   
-#work_container
+  
+
+
+.pad    
+#pseudo
   //- div.stripe
   //-   div.color_3
   //-   div.color_1
@@ -21,10 +25,15 @@ mixin cardMix(cardtitle, cardbody, cardcta, cardcolor, cardpic, wip)
   //-   div.color_3
   //-   div.color_1
   //-   div.color_2
-    
   
+  div.back_alt
+    .card_container
+      
+      a(href="intro.html")
+        +cardMix('Mubarak Marafa,', 'A Nigerian Interaction Designer living in Hong Kong. Trained as a New Media Artist specialising in the convergence of Art and Science he is an artist, programmer, and designer who is passionate about building things. Oh, and he has a MDes in Interaction Design. He has spent the last year as a researcher in the PolyU, School of Design.', 'Click for More', 'background-color: rgb(74, 80, 111)', 'Me_Intro.jpg', 'ghost.png')
+        
+#work_container
   div.home_title
-    div.highlighter
     h2.header_2 Mubarak has worked on...
     
 div.back_alt
@@ -35,7 +44,7 @@ div.back_alt
       
     
     a(href="karmaq.html")
-      +cardMix('KarmaQ,', 'a conceptual system designed to change add value to the time spent waiting in lines by making it worth something.', 'Click for more', 'background-color: black', 'MiniCard.png', 'ghost.png')
+      +cardMix('KarmaQ,', 'a conceptual system designed to add value to the time spent waiting in lines by making it worth something.', 'Click for more', 'background-color: black', 'MiniCard.png', 'ghost.png')
       
     
     a(href="https://www.behance.net/gallery/48171623/GreenCo" target="_blank")
@@ -57,14 +66,38 @@ div.back_alt
       +cardMix('and the Solotouch,', 'an instrument combining an intuitive hardware controller with intelligent software to allow anyone play rocking guitar solos without any musical training.', 'Click for more', 'background-color: white', 'solotouch_cover.jpg', 'ghost.png')
     
     .moreWork
-      +cardMix('VR Dreaming', "I've currently got my head in the clouds, building a project that came to me in a daydream.", 'More coming soon', 'background-color: #B94745', 'vr_dreams.png', 'wip.png')
+      a(href="../../assets/img/Intersubjective_PosterPresentation.jpg" target="_blank")
+        +cardMix('Intersubjective Couches', "A study on using biometric visualisation to influence Intersubjective Engagement. This was published and presented at The Science of Consciousness in Tucson Arizona in 2016.", 'Click for Full Size', 'background-color: #ffffff', 'couches.png', 'ghost.png')
+        
+    .moreWork
+      a(href="https://mojave.scm.cityu.edu.hk/Her%20White%20Suns%20Orbit.html" target="_blank")
+        +cardMix('Her White Suns Orbit', "A kinetic robotic installation that is mapped to the topography of the sand dunes of Death Valley in the Mojave Desert in California.", 'Click for Artist Statement', 'background-color: #ffffff', 'suns.jpg', 'ghost.png')
+    
+    .moreWork
+      +cardMix('Clara', "A concept for a smartphone designed for the elderly, featuring large buttons that are screens, and a natural durable wooden enclusure.", 'Process Coming Soon', 'background-color: #67C1BB', 'clara.png', 'ghost.png')
+      
+    .moreWork
+      a(href="https://vimeo.com/88463034" target="_blank")
+        +cardMix('Mechanical Canopy', "A concept for a dynamic playground environment that encorporates elements from nature to create an outdoor foyer. The prototype was modelled in Blender 3D and 3D printed and combined with Arduino and simple servos to visualise it.", 'Click for Video', 'background-color: #ffffff', 'canopy.jpg', 'ghost.png')
+        
+    .moreWork
+      a(href="https://vimeo.com/88444607" target="_blank")
+        +cardMix('Table Top Turret', "A prototype of a robotic shooter game we put together (literally overnight) as a proof of concept for a laser tag-esque style robotic game controlled by a Wii Nunchuk plugged into an Arduino and found parts.", 'Click for Video', 'background-color: #ffffff', 'robot.png', 'ghost.png')
+        
+    .moreWork
+      +cardMix('Alyssa', "A 2D to 3D Character Design practice... Really I just wanted to try my hand at 3D Character modelling and rendering. I also gained a new appreciation for animation and how difficult it is!", 'Process Coming Soon', 'background-color: #ffffff', 'alyssa.jpg', 'ghost.png')
+    
+    .moreWork
+      +cardMix('VR Dreaming', "I've currently got my head in the clouds, building a project that came to me in a daydream.", 'More Coming Soon', 'background-color: #ffffff', 'vr_dreams.png', 'wip.png')
     
     .moreWork
       a(href="https://goo.gl/forms/KdIjWQ7fZdb8m6aL2" target="_blank")
-        +cardMix('Sharing Anxiety', 'Users get nervous when handing their phones to other people, but we inherently love to "show-and-tell". Can I design a solution to address this pain point? Watch this space to find out.', 'Click for survey', 'background-color: #B94745', 'anxiety.JPG', 'wip.png')
+        +cardMix('Sharing Anxiety', 'Users get nervous when handing their phones to other people, but we inherently love to "show-and-tell". Can I design a solution to address this pain point? Watch this space to find out.', 'Click for Survey', 'background-color: #ffffff', 'anxiety.jpeg', 'wip.png')
+        
     .moreWork
       .ghostCard
+      
 
 div.work_cta
   //a(href="allwork.html")
-  button.allWork More
+  button.allWork more

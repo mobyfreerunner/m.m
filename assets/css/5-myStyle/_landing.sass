@@ -23,14 +23,15 @@ html, body
     align-items: left
     width: 700px
     height: 408px
-    border-radius: 30px
+    border-radius: 0px
     box-shadow: $myHover
     //box-shadow: 0 80px 80px -40px rgba(black, 0.5)
     background-color: $myBlack
     flex-wrap: wrap
-    transition: all 0.3s ease-out
+    transition: all 0.1s ease-out
     font-size: 50px
     line-height: 102px
+    z-index: 10
     .card_logo
       display: flex
       justify-content: center
@@ -39,7 +40,7 @@ html, body
       border: solid
       border-color: $myBlack
       border-width: 6px 3px 3px 6px
-      border-radius: 10px 0px 0px 0px
+      border-radius: 20px 0px 0px 0px
       height: 25%
       width: 35%
       cursor: pointer
@@ -56,7 +57,7 @@ html, body
       border: solid
       border-color: $myBlack
       border-width: 6px 6px 3px 3px
-      border-radius: 0px 10px 0px 0px
+      border-radius: 0px 20px 0px 0px
       height: 25%
       width: 65%
       .logo_name
@@ -140,7 +141,7 @@ html, body
       border: solid
       border-color: $myBlack
       border-width: 3px 3px 6px 6px
-      border-radius: 0px 0px 0px 10px
+      border-radius: 0px 0px 0px 20px
       height: 25%
       width: 50%
       color: $myBlack
@@ -154,7 +155,7 @@ html, body
       border: solid
       border-color: $myBlack
       border-width: 3px 6px 6px 3px
-      border-radius: 0px 0px 10px 0px
+      border-radius: 0px 0px 20px 0px
       height: 25%
       width: 50%
       color: $myBlack

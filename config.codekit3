@@ -1182,6 +1182,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/gsj.png": {
+		"ft": 32768,
+		"iS": 34935,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/gsj.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/alyssa.jpg": {
+		"ft": 16384,
+		"iS": 14270,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/alyssa.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/home\/anxiety.jpeg": {
 		"ft": 16384,
 		"iS": 327118,
@@ -1195,6 +1211,30 @@
 		"iS": 181946,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/Aurora.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/canopy.jpg": {
+		"ft": 16384,
+		"iS": 18303,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/canopy.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/clara.png": {
+		"ft": 32768,
+		"iS": 144541,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/clara.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/couches.png": {
+		"ft": 32768,
+		"iS": 599857,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/couches.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1230,11 +1270,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/home\/Me_Intro.jpg": {
+		"ft": 16384,
+		"iS": 515525,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/Me_Intro.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/home\/MiniCard.png": {
 		"ft": 32768,
 		"iS": 471645,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/MiniCard.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/robot.png": {
+		"ft": 32768,
+		"iS": 198689,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/robot.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1251,6 +1307,14 @@
 		"iS": 13416,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/home\/solotouch_cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/home\/suns.jpg": {
+		"ft": 16384,
+		"iS": 103653,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/home\/suns.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1283,6 +1347,14 @@
 		"iS": 26527,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/icons\/Instagram-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/icons\/medium.png": {
+		"ft": 32768,
+		"iS": 3044,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/icons\/medium.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1326,6 +1398,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/Intersubjective_PosterPresentation.jpg": {
+		"ft": 16384,
+		"iS": 4364775,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/Intersubjective_PosterPresentation.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 5878,
@@ -1355,6 +1435,14 @@
 		"iS": 26790,
 		"oA": 2,
 		"oAP": "\/build\/assets\/img\/me_intro_small.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/mm_landing_crop.png": {
+		"ft": 32768,
+		"iS": 61046,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/mm_landing_crop.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1630,6 +1718,15 @@
 		"oA": 0,
 		"oAP": "\/build\/assets\/js\/functions.js",
 		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/instafeed.min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/js\/instafeed.min.js",
+		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
@@ -2033,7 +2130,7 @@
 	"displayValue": "mubarakmarafa.com",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-jake",
-	"lastBuiltDate": 508228536
+	"lastBuiltDate": 510230113
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
